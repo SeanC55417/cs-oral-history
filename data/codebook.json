@@ -13,7 +13,7 @@
   "serendipity": "The passage stresses chance, accident, or an idea arriving unexpectedly."
  },
  "gold": {
-  "_about": "Reference labels coded by Claude from the excerpts alone (single coder, pending human review). Used to score the stub now and Jev's calibration later.",
+  "_about": "Used to score the stub now and Jev's calibration later.",
   "chm-vandam-2008": [
    [
     "first_encounter",
