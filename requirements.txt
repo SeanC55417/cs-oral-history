@@ -1,0 +1,8 @@
+# Install from the project root after obtaining libraries/medford.
+# These are the dependencies listed by the original project setup.
+-e ./libraries/medford
+typesafe-sdk
+httpx
+beautifulsoup4
+pypdf
+youtube-transcript-api

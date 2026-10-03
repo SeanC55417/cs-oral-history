@@ -1,0 +1,222 @@
+{
+ "_about": "Deductive codebook v0 for an oral history of CS. Each code becomes one Jev Noul question (multi-label, evaluated in parallel and in isolation). Inductive codes discovered later get appended here.",
+ "codes": {
+  "first_encounter": "The speaker recalls their first contact with computers, programming, or the field.",
+  "mentorship_lineage": "The passage names an advisor, mentor, student, or intellectual influence (academic genealogy).",
+  "institution_building": "The passage is about founding or joining a department, lab, institute, program, or curriculum.",
+  "funding_patronage": "The passage is about who paid for the work: DARPA/ARPA, NSF, IBM, grants, or the freedom money bought.",
+  "technical_breakthrough": "The passage describes an invention, a new idea, a system, or a key design decision.",
+  "identity_belonging": "The passage touches on gender, nationality, class, or being an outsider/minority in the field.",
+  "profession_formation": "The passage is about computing or programming becoming a legitimate profession or academic discipline.",
+  "teaching_students": "The passage is about teaching, courses, or undergraduate/graduate students' work.",
+  "reflection_legacy": "The speaker looks back, evaluates impact, or draws a lesson about the field.",
+  "serendipity": "The passage stresses chance, accident, or an idea arriving unexpectedly."
+ },
+ "gold": {
+  "_about": "Reference labels coded by Claude from the excerpts alone (single coder, pending human review). Used to score the stub now and Jev's calibration later.",
+  "chm-vandam-2008": [
+   [
+    "first_encounter",
+    "technical_breakthrough"
+   ],
+   [
+    "first_encounter",
+    "serendipity"
+   ],
+   [
+    "institution_building",
+    "teaching_students"
+   ],
+   [
+    "institution_building",
+    "profession_formation"
+   ],
+   [
+    "teaching_students",
+    "technical_breakthrough"
+   ],
+   [
+    "teaching_students"
+   ],
+   [
+    "mentorship_lineage"
+   ],
+   [
+    "reflection_legacy"
+   ]
+  ],
+  "cbi-kleinrock-1990": [
+   [
+    "identity_belonging"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "institution_building"
+   ],
+   [
+    "funding_patronage"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "mentorship_lineage",
+    "teaching_students"
+   ],
+   [
+    "funding_patronage",
+    "reflection_legacy"
+   ]
+  ],
+  "ieee-liskov-1991": [
+   [
+    "funding_patronage"
+   ],
+   [
+    "funding_patronage"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "technical_breakthrough",
+    "reflection_legacy"
+   ],
+   [
+    "funding_patronage"
+   ]
+  ],
+  "acm-liskov-2016": [
+   [
+    "first_encounter"
+   ],
+   [
+    "identity_belonging"
+   ],
+   [
+    "mentorship_lineage"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "institution_building"
+   ],
+   [
+    "technical_breakthrough",
+    "serendipity"
+   ],
+   [
+    "reflection_legacy"
+   ]
+  ],
+  "chm-reddy-2021": [
+   [
+    "identity_belonging"
+   ],
+   [
+    "first_encounter"
+   ],
+   [
+    "funding_patronage",
+    "mentorship_lineage"
+   ],
+   [
+    "first_encounter",
+    "mentorship_lineage"
+   ],
+   [
+    "mentorship_lineage",
+    "institution_building"
+   ],
+   [
+    "institution_building"
+   ],
+   [
+    "reflection_legacy"
+   ]
+  ],
+  "chm-brooks-2007": [
+   [
+    "first_encounter"
+   ],
+   [
+    "mentorship_lineage"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "institution_building"
+   ],
+   [
+    "serendipity",
+    "reflection_legacy"
+   ],
+   [
+    "teaching_students"
+   ]
+  ],
+  "ewd1308-dijkstra-2001": [
+   [
+    "first_encounter",
+    "mentorship_lineage"
+   ],
+   [
+    "profession_formation"
+   ],
+   [
+    "profession_formation"
+   ],
+   [
+    "technical_breakthrough"
+   ],
+   [
+    "technical_breakthrough",
+    "reflection_legacy"
+   ]
+  ]
+ },
+ "gold_relations": {
+  "_about": "Reference relation types (Claude-coded from excerpts, pending human review).",
+  "chm-vandam-2008": {
+   "Myers": "influence",
+   "Sutherland": "influence"
+  },
+  "cbi-kleinrock-1990": {
+   "Lawrence Roberts": "funder_or_patron",
+   "Steve Crocker": "student_or_mentee",
+   "Vint Cerf": "student_or_mentee",
+   "Jon Postel": "student_or_mentee"
+  },
+  "acm-liskov-2016": {
+   "John McCarthy": "advisor_or_mentor",
+   "Mike Schroeder": "peer_colleague"
+  },
+  "chm-reddy-2021": {
+   "John McCarthy": "advisor_or_mentor",
+   "Newell": "influence",
+   "Simon": "influence"
+  },
+  "chm-brooks-2007": {
+   "Aiken": "advisor_or_mentor",
+   "Tom Watson": "funder_or_patron"
+  },
+  "ewd1308-dijkstra-2001": {
+   "Wilkes": "advisor_or_mentor",
+   "Wheeler": "advisor_or_mentor",
+   "Gill": "advisor_or_mentor"
+  }
+ }
+}

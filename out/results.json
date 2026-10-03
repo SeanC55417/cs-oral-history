@@ -1,0 +1,2841 @@
+{
+ "generated": "2026-09-28",
+ "model": "heuristic-stub-0.1",
+ "frame": {
+  "n": 5057,
+  "with_join_year": 4348,
+  "cohorts": {
+   "1950s": 9,
+   "1960s": 30,
+   "1970s": 101,
+   "1980s": 426,
+   "1990s": 622,
+   "2000s": 1378,
+   "2010s": 1755,
+   "2020s": 27,
+   "unknown": 709
+  },
+  "subfields_1960s_1970s": [
+   [
+    "Algorithms & Complexity",
+    22
+   ],
+   [
+    "Computer Graphics",
+    9
+   ],
+   [
+    "Computer Networks",
+    9
+   ],
+   [
+    "Software Engineering",
+    8
+   ],
+   [
+    "Computer Architecture",
+    8
+   ],
+   [
+    "Computer Security",
+    8
+   ],
+   [
+    "Artificial Intelligence",
+    8
+   ],
+   [
+    "Scientific Computing",
+    6
+   ],
+   [
+    "Machine Learning & Data Mining",
+    6
+   ],
+   [
+    "Natural Language Processing",
+    5
+   ],
+   [
+    "Comp. Bio & Bioinformatics",
+    5
+   ],
+   [
+    "High-Performance Computing",
+    5
+   ]
+  ],
+  "suspicious_join_years": [
+   {
+    "name": "Guanhua Yan",
+    "university": "Binghamton University",
+    "join_year": 1958,
+    "subfield": "Unspecified",
+    "bachelors": "",
+    "doctorate": "",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Filippo Menczer",
+    "university": "Brown University",
+    "join_year": 1955,
+    "subfield": "Computer Graphics",
+    "bachelors": "Aristotle University of Thessaloniki",
+    "doctorate": "Brandeis University",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Erin Brady",
+    "university": "California Institute of Technology",
+    "join_year": 1954,
+    "subfield": "Computer Architecture",
+    "bachelors": "Bar-Ilan University",
+    "doctorate": "Royal Institute of Technology",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Dirk Van Gucht",
+    "university": "Indiana University Bloomington",
+    "join_year": 1954,
+    "subfield": "Machine Learning & Data Mining",
+    "bachelors": "Bar-Ilan University",
+    "doctorate": "Vanderbilt University",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Donald S. Williamson",
+    "university": "Indiana University Bloomington",
+    "join_year": 1952,
+    "subfield": "Algorithms & Complexity",
+    "bachelors": "Aristotle University of Thessaloniki",
+    "doctorate": "Brandeis University",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Erik Stolterman",
+    "university": "Indiana University Bloomington",
+    "join_year": 1954,
+    "subfield": "Comp. Bio & Bioinformatics",
+    "bachelors": "Aristotle University of Thessaloniki",
+    "doctorate": "Brandeis University",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Marvin Minsky",
+    "university": "Massachusetts Institute of Technology",
+    "join_year": 1958,
+    "subfield": "Artificial Intelligence",
+    "bachelors": "Harvard University",
+    "doctorate": "Princeton University",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Alain Tapp",
+    "university": "Université de Montréal",
+    "join_year": 1956,
+    "subfield": "Artificial Intelligence",
+    "bachelors": "Ben-Gurion University of the Negev",
+    "doctorate": "",
+    "cohort": "1950s"
+   },
+   {
+    "name": "Esma Aïmeur",
+    "university": "Université de Montréal",
+    "join_year": 1951,
+    "subfield": "Unspecified",
+    "bachelors": "",
+    "doctorate": "",
+    "cohort": "1950s"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "chm-vandam-2008",
+   "narrator": "Andries van Dam",
+   "drafty_name": "Andries van Dam",
+   "interviewer": "Marc Weber",
+   "date": "2008-12-10",
+   "place": "Menlo Park, California",
+   "repository": "Computer History Museum",
+   "catalog": "X5675.2010 / 102702021",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2015/05/102702021-05-01-acc.pdf",
+   "pages": 27,
+   "affiliation": "Brown University",
+   "_drafty": {
+    "name": "Andries van Dam",
+    "university": "Brown University",
+    "join_year": 1965,
+    "subfield": "Computer Graphics",
+    "bachelors": "Swarthmore College",
+    "doctorate": "University of Pennsylvania",
+    "cohort": "1960s"
+   },
+   "n_excerpts": 8
+  },
+  {
+   "id": "cbi-kleinrock-1990",
+   "narrator": "Leonard Kleinrock",
+   "drafty_name": "Leonard Kleinrock",
+   "interviewer": "Judy O'Neill",
+   "date": "1990-04-03",
+   "place": "Los Angeles, CA",
+   "repository": "Charles Babbage Institute, University of Minnesota",
+   "catalog": "OH 190",
+   "source_type": "oral_history_transcript",
+   "uri": "https://conservancy.umn.edu/items/aee7d48c-a660-4306-81e5-a0214f642d95",
+   "affiliation": "University of California, Los Angeles",
+   "_drafty": {
+    "name": "Leonard Kleinrock",
+    "university": "University of California, San Diego",
+    "join_year": 1963,
+    "subfield": "Computer Networks",
+    "bachelors": "City College of New York",
+    "doctorate": "Massachusetts Institute of Technology",
+    "cohort": "1960s"
+   },
+   "n_excerpts": 8
+  },
+  {
+   "id": "ieee-liskov-1991",
+   "narrator": "Barbara Liskov",
+   "drafty_name": "Barbara H. Liskov",
+   "interviewer": "William Aspray",
+   "date": "1991-08-06",
+   "place": "Telephone interview",
+   "repository": "IEEE History Center (ETHW)",
+   "catalog": "Interview #127",
+   "source_type": "oral_history_transcript",
+   "uri": "https://ethw.org/Oral-History:Barbara_Liskov_(1991)",
+   "affiliation": "Massachusetts Institute of Technology",
+   "_drafty": {
+    "name": "Barbara H. Liskov",
+    "university": "Massachusetts Institute of Technology",
+    "join_year": 1972,
+    "subfield": "Operating Systems",
+    "bachelors": "University of California, Berkeley",
+    "doctorate": "Stanford University",
+    "cohort": "1970s"
+   },
+   "n_excerpts": 6
+  },
+  {
+   "id": "acm-liskov-2016",
+   "narrator": "Barbara Liskov",
+   "drafty_name": "Barbara H. Liskov",
+   "interviewer": "Tom Van Vleck",
+   "date": "2016-04-20",
+   "place": "MIT, Cambridge, Massachusetts",
+   "repository": "ACM A.M. Turing Award oral histories",
+   "catalog": "LiskovTuringTranscript",
+   "source_type": "oral_history_transcript",
+   "uri": "http://amturing.acm.org/pdf/LiskovTuringTranscript.pdf",
+   "affiliation": "Massachusetts Institute of Technology",
+   "_drafty": {
+    "name": "Barbara H. Liskov",
+    "university": "Massachusetts Institute of Technology",
+    "join_year": 1972,
+    "subfield": "Operating Systems",
+    "bachelors": "University of California, Berkeley",
+    "doctorate": "Stanford University",
+    "cohort": "1970s"
+   },
+   "n_excerpts": 7
+  },
+  {
+   "id": "chm-reddy-2021",
+   "narrator": "Raj Reddy",
+   "drafty_name": "Raj Reddy",
+   "interviewer": "Hansen Hsu",
+   "date": "2021-04-14",
+   "place": "Pittsburgh, PA (via Zoom)",
+   "repository": "Computer History Museum",
+   "catalog": "X9458.2021 / 102792182",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2021/06/102792182-05-01-acc.pdf",
+   "affiliation": "Carnegie Mellon University",
+   "_drafty": {
+    "name": "Raj Reddy",
+    "university": "Carnegie Mellon University",
+    "join_year": 1969,
+    "subfield": "Robotics",
+    "bachelors": "University of Madras",
+    "doctorate": "Stanford University",
+    "cohort": "1960s"
+   },
+   "n_excerpts": 7
+  },
+  {
+   "id": "chm-brooks-2007",
+   "narrator": "Fred Brooks",
+   "drafty_name": "Fredrick P. Brooks Jr",
+   "interviewer": "Grady Booch",
+   "date": "2007-09-16",
+   "place": "Little Eriswell, Cambridge, United Kingdom",
+   "repository": "Computer History Museum",
+   "catalog": "X4146.2008 / 102658255",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2012/11/102658255-05-01-acc.pdf",
+   "affiliation": "University of North Carolina at Chapel Hill",
+   "_drafty": {
+    "name": "Fredrick P. Brooks Jr",
+    "university": "University of North Carolina at Chapel Hill",
+    "join_year": 1964,
+    "subfield": "Computer Graphics",
+    "bachelors": "Duke University",
+    "doctorate": "Harvard University",
+    "cohort": "1960s"
+   },
+   "n_excerpts": 7
+  },
+  {
+   "id": "ewd1308-dijkstra-2001",
+   "narrator": "Edsger W. Dijkstra",
+   "drafty_name": null,
+   "interviewer": null,
+   "date": "2001-06-10",
+   "place": "Austin, Texas",
+   "repository": "E.W. Dijkstra Archive, University of Texas at Austin",
+   "catalog": "EWD1308",
+   "source_type": "memoir_essay",
+   "uri": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1308.html",
+   "affiliation": "University of Texas at Austin",
+   "_drafty": null,
+   "n_excerpts": 5
+  }
+ ],
+ "gaps": [
+  {
+   "narrator": "Mary Shaw",
+   "drafty_name": "Mary Shaw",
+   "note": "No oral history found on ETHW or in first-page search results; biography page only (https://ethw.org/Mary_Shaw). Candidate for a new interview."
+  },
+  {
+   "narrator": "Andries van Dam",
+   "note": "Wayback snapshot of cs.brown.edu/people/avd/ (1997) not reachable from this environment (web.archive.org blocked); run collectors.wayback from an open network."
+  },
+  {
+   "narrator": "Barbara Liskov",
+   "note": "CHM video oral history (youtube lhcGCekk4pk) could not be read (rate limited); run collectors.youtube."
+  }
+ ],
+ "passages": [
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 0,
+   "text": "When I saw somebody manipulating images on the screen in real-time in a world that for me at the time consisted of feeding decks of punched cards to computers, that was just mind-blowing.",
+   "page": "3",
+   "years": "1960s",
+   "themes": {
+    "first_encounter": 0.982,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "first_encounter",
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 1,
+   "text": "I was a graduate student at the university. I don't even remember how I came to see the movie. But as I said, it changed my life.",
+   "page": "5",
+   "years": "1960s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.982
+   },
+   "accepted_themes": [
+    "teaching_students",
+    "serendipity"
+   ],
+   "review_themes": [],
+   "is_recollection": 1.0,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "turning_point",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "first_encounter",
+    "serendipity"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 2,
+   "text": "Brown really believes in undergraduates and undergraduate teaching. He knew I'd had a wonderful time at Swarthmore and had really appreciated the intimate contact with faculty.",
+   "page": "6-7",
+   "years": "1965",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.998,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "institution_building",
+    "teaching_students"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 3,
+   "text": "Brown was one of the very first schools to teach computer science to undergraduates. By 1966, there were several tracks in applied math.",
+   "page": "7",
+   "years": "1966",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.982,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.818,
+    "teaching_students": 0.982,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "institution_building",
+    "profession_formation",
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "institution_building",
+    "profession_formation"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 4,
+   "text": "HES was a complete bootleg project. It was done in spare time by these undergraduates who were having a ball learning how to do this kind of stuff.",
+   "page": "9",
+   "years": "1967-1968",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.818
+   },
+   "accepted_themes": [
+    "teaching_students",
+    "serendipity"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1960s",
+   "era_conf": 0.87,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "accept",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "teaching_students",
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 5,
+   "text": "The beautiful thing there was that these kids in the FRES group wrote something three times more than the other kids did, because writing was so easy if you had a computer system.",
+   "page": "18",
+   "years": "1970s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.982,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "building",
+   "function_conf": 0.17,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "teaching_students"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 6,
+   "text": "I was very skeptical, and believed that some of it must have been demo-ware, the man behind the curtain, etc. He was very, very kind and said, 'No, come up to my lab.'",
+   "page": "24",
+   "years": "1968",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 0.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "chm-vandam-2008",
+   "idx": 7,
+   "text": "There's a wonderful paper by Myers and Sutherland called The Wheel of Reincarnation about how the same old ideas come around and around and just have different implementations.",
+   "page": "23",
+   "years": "2008",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.818,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough",
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "2000_plus",
+   "era_conf": 0.445,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 2.0,
+   "affect": 2.0,
+   "relations": [
+    {
+     "person": "Myers",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Sutherland",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Andries van Dam",
+   "gold": [
+    "reflection_legacy"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 0,
+   "text": "I received a bachelor's degree in Electrical Engineering, from the Evening Session program at City College, New York in 1957.",
+   "page": "3",
+   "years": "1957",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.818,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "identity_belonging"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "identity_belonging"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 1,
+   "text": "What I did was to set up analytical models of computer communication networks and that resulted in an MIT book called Communication Nets.",
+   "page": "3-4",
+   "years": "1959-1962",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.0,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 2,
+   "text": "In August of that year, 1963, I was offered a position here at UCLA...I tried it, and I'm still here.",
+   "page": "4-5",
+   "years": "1963",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.818,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "institution_building"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.998,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "institution_building"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 3,
+   "text": "In 1967, Larry, who was already at DARPA, was interested in putting together an ARPA network.",
+   "page": "5",
+   "years": "1967",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.982,
+    "technical_breakthrough": 0.818,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "funding_patronage",
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Lawrence Roberts",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "funding_patronage"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 4,
+   "text": "In September 1969 they delivered the first IMP to me at UCLA...The first node on the network to begin to get some measurements.",
+   "page": "5",
+   "years": "1969",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 5,
+   "text": "we became the network measurement center...And all the while we were making measurements.",
+   "page": "5-6",
+   "years": "1969-1971",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.818,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "1960s",
+   "era_conf": 0.0,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 6,
+   "text": "Steve Crocker, Vint Cerf and Jon Postel all worked for me at the time...Steve Crocker was in charge of the software side.",
+   "page": "13-14",
+   "years": "1969",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.818,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "mentorship_lineage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Steve Crocker",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Vint Cerf",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Jon Postel",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "mentorship_lineage",
+    "teaching_students"
+   ]
+  },
+  {
+   "source_id": "cbi-kleinrock-1990",
+   "idx": 7,
+   "text": "lots of money, lots of freedom in terms of what we were doing, really advanced technology. It was a great, great experiment.",
+   "page": "29",
+   "years": "1960s-1970s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.818,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.818,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "funding_patronage",
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Leonard Kleinrock",
+   "gold": [
+    "funding_patronage",
+    "reflection_legacy"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 0,
+   "text": "I have had NSF grants since around 1973, I think, or possibly early 1974.",
+   "page": "",
+   "years": "1973-1974",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.982,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "funding_patronage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "1970s",
+   "era_conf": 0.87,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "accept",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "funding_patronage"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 1,
+   "text": "Most of my support has actually been from DARPA...The NSF support has always been for a fraction of what I do, maybe 20 percent.",
+   "page": "",
+   "years": "1970s-1991",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 1.0,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "funding_patronage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "1990s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 0.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "funding_patronage"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 2,
+   "text": "I designed and implemented a new programming language that contained this concept as a key feature.",
+   "page": "",
+   "years": "1970s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.818,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 3,
+   "text": "I sort of thought about it as a research vehicle that was developed primarily to firm up ideas and get them out.",
+   "page": "",
+   "years": "1970s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.818,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 4,
+   "text": "The idea of data abstraction sort of caught fire and today there is a large community of people who think about how to organize programs.",
+   "page": "",
+   "years": "1979-1991",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.982,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough",
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1970s",
+   "era_conf": 0.0,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "reflection_legacy",
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "ieee-liskov-1991",
+   "idx": 5,
+   "text": "What you can get out of the NSF is one or maybe two graduate students...You certainly cannot do systems work on that kind of support.",
+   "page": "",
+   "years": "1991",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.982,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "funding_patronage",
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1990s",
+   "era_conf": 0.445,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 0.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "funding_patronage"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 0,
+   "text": "I got a job at Mitre and on my first day at work, they handed me a FORTRAN manual and they gave me a problem.",
+   "page": "3-4",
+   "years": "1961",
+   "themes": {
+    "first_encounter": 0.818,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter"
+   ],
+   "review_themes": [],
+   "is_recollection": 1.0,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "first_encounter"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 1,
+   "text": "There weren't many girls in these classes. I don't really remember how many there were. I might have been the only one.",
+   "page": "2",
+   "years": "1950s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.982,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "identity_belonging",
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 0.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "identity_belonging"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 2,
+   "text": "So I moved back to Stanford in the fall of 1963 and started working with John and taking classes. It was a good thing to do.",
+   "page": "6-7",
+   "years": "1963",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.982,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "mentorship_lineage",
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 2.0,
+   "relations": [
+    {
+     "person": "John McCarthy",
+     "relation": "influence",
+     "confidence": 0.076,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 3,
+   "text": "The little computer I developed was called 'Venus' and then we developed the Venus operating system.",
+   "page": "9",
+   "years": "1969-1970",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "1960s",
+   "era_conf": 0.0,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 4,
+   "text": "I moved to MIT in the fall of 1972. And at the same time, Mike Schroeder was hired, so they hired two people in systems.",
+   "page": "12-13",
+   "years": "1972",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.998,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "institution_building"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1970s",
+   "era_conf": 0.445,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Mike Schroeder",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "institution_building"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 5,
+   "text": "I got the idea of data abstraction. And it was this marvelous idea. It came out of nowhere.",
+   "page": "15-16",
+   "years": "1972-1973",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.998,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.818
+   },
+   "accepted_themes": [
+    "technical_breakthrough",
+    "serendipity"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1970s",
+   "era_conf": 0.87,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "accept",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "serendipity",
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "acm-liskov-2016",
+   "idx": 6,
+   "text": "I discovered there were lots and lots of people on the Internet having arguments about what the Liskov substitution principle meant.",
+   "page": "30-31",
+   "years": "1987-2016",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.818,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1980s",
+   "era_conf": 0.0,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Barbara Liskov",
+   "gold": [
+    "reflection_legacy"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 0,
+   "text": "I was born in India, in a small village of 500 people in the south [of] India near Chennai.",
+   "page": "2",
+   "years": "1937",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.982,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "identity_belonging"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "pre_1950",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "identity_belonging"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 1,
+   "text": "Everything was vacuum tube. Was a huge, you know, it was a-- would've taken a whole room like this.",
+   "page": "4-5",
+   "years": "1959",
+   "themes": {
+    "first_encounter": 0.818,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "first_encounter"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 2,
+   "text": "John McCarthy got a DARPA grant to do research in A.I., and one of the things the grant funded was to buy our own dedicated computer.",
+   "page": "9",
+   "years": "1963",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.982,
+    "institution_building": 0.269,
+    "funding_patronage": 1.0,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "mentorship_lineage",
+    "funding_patronage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "John McCarthy",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "funding_patronage",
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 3,
+   "text": "Why don't you see what you can do with PDP-1 and A-to-D converters? So that was my first introduction.",
+   "page": "11",
+   "years": "1963",
+   "themes": {
+    "first_encounter": 0.818,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "first_encounter",
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 4,
+   "text": "Since Newell and Simon were at Carnegie Mellon, it was natural I would kind of go to Carnegie Mellon.",
+   "page": "12",
+   "years": "1969",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.982,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "mentorship_lineage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Newell",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Simon",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "institution_building",
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 5,
+   "text": "That's when we started the Robotics Institute at Carnegie Mellon, and-- in 1979.",
+   "page": "13",
+   "years": "1979",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.982,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "institution_building"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1970s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.076,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "institution_building"
+   ]
+  },
+  {
+   "source_id": "chm-reddy-2021",
+   "idx": 6,
+   "text": "There are things in science and technology which can be completely understood... and there are other things that we don't fully understand.",
+   "page": "26",
+   "years": "2021",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.818,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "2000_plus",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Raj Reddy",
+   "gold": [
+    "reflection_legacy"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 0,
+   "text": "I read in Time Magazine about the Harvard Mark I...and I knew from then on that that was what I wanted to do.",
+   "page": "4",
+   "years": "1944-1945",
+   "themes": {
+    "first_encounter": 0.982,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter"
+   ],
+   "review_themes": [],
+   "is_recollection": 1.0,
+   "era": "pre_1950",
+   "era_conf": 0.87,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "accept",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "first_encounter"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 1,
+   "text": "Aiken was a very impressive person...He came to my office every day and wanted to see the prose that had appeared since the day before.",
+   "page": "5",
+   "years": "1953-1956",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.818,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "mentorship_lineage"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.87,
+   "function": "anecdote",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [
+    {
+     "person": "Aiken",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "accept",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 2,
+   "text": "The notion of going from a hardware console to a programmable console, an operating system-driven console. That was crucial to our thinking.",
+   "page": "10",
+   "years": "1956",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 1.0,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 3,
+   "text": "Making the 8-bit byte decision is far and away the most important...it opened the lower case alphabet.",
+   "page": "25",
+   "years": "1962",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.818,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.818,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough",
+    "reflection_legacy"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "turning_point",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 4,
+   "text": "The heads of the departments that use the computations all turned out for the candidate's lecture...they assembled a committee to study computer science.",
+   "page": "29",
+   "years": "1964",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.982,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "institution_building"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.269,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "building",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "institution_building"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 5,
+   "text": "Tom Watson asked me this question at lunch. He said, 'You've managed the hardware program. You've managed the software program. What's the difference?'",
+   "page": "38",
+   "years": "1965",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.818
+   },
+   "accepted_themes": [
+    "serendipity"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Tom Watson",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "reflection_legacy",
+    "serendipity"
+   ]
+  },
+  {
+   "source_id": "chm-brooks-2007",
+   "idx": 6,
+   "text": "I thought it was a problem as a project course...I insisted that they choose a producer and a director separate for each project.",
+   "page": "39",
+   "years": "late 1960s",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.818,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "teaching_students"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.982,
+   "era": "timeless",
+   "era_conf": 0.177,
+   "function": "turning_point",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Fred Brooks",
+   "gold": [
+    "teaching_students"
+   ]
+  },
+  {
+   "source_id": "ewd1308-dijkstra-2001",
+   "idx": 0,
+   "text": "I was introduced to programming at the 1951 Summer School, given in Cambridge by Wilkes, Wheeler and Gill",
+   "page": "",
+   "years": "1951",
+   "themes": {
+    "first_encounter": 0.818,
+    "mentorship_lineage": 0.998,
+    "institution_building": 0.818,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "first_encounter",
+    "mentorship_lineage",
+    "institution_building"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 2.0,
+   "affect": 1.0,
+   "relations": [
+    {
+     "person": "Wilkes",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Wheeler",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    },
+    {
+     "person": "Gill",
+     "relation": "advisor_or_mentor",
+     "confidence": 0.0,
+     "route": "review"
+    }
+   ],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Edsger W. Dijkstra",
+   "gold": [
+    "first_encounter",
+    "mentorship_lineage"
+   ]
+  },
+  {
+   "source_id": "ewd1308-dijkstra-2001",
+   "idx": 1,
+   "text": "In 1955 I took the decision not to become a theoretical physicist, but to become a programmer instead.",
+   "page": "",
+   "years": "1955",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.982,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "profession_formation"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "turning_point",
+   "function_conf": 0.076,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Edsger W. Dijkstra",
+   "gold": [
+    "profession_formation"
+   ]
+  },
+  {
+   "source_id": "ewd1308-dijkstra-2001",
+   "idx": 2,
+   "text": "I had concluded that of theoretical physics and programming, programming embodied the greater intellectual challenge.",
+   "page": "",
+   "years": "1955",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.818,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "profession_formation"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1950s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 2.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Edsger W. Dijkstra",
+   "gold": [
+    "profession_formation"
+   ]
+  },
+  {
+   "source_id": "ewd1308-dijkstra-2001",
+   "idx": 3,
+   "text": "this implementation was then by far my most ambitious project: ALGOL 60 was so far ahead of its time",
+   "page": "",
+   "years": "1960",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.982,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [
+    "technical_breakthrough"
+   ],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 0.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Edsger W. Dijkstra",
+   "gold": [
+    "technical_breakthrough"
+   ]
+  },
+  {
+   "source_id": "ewd1308-dijkstra-2001",
+   "idx": 4,
+   "text": "it took me months to gather the courage to write (for therapeutic reasons) EWD249 'Notes on Structured Programming' (August 1969)",
+   "page": "",
+   "years": "1969",
+   "themes": {
+    "first_encounter": 0.269,
+    "mentorship_lineage": 0.269,
+    "institution_building": 0.269,
+    "funding_patronage": 0.269,
+    "technical_breakthrough": 0.269,
+    "identity_belonging": 0.269,
+    "profession_formation": 0.269,
+    "teaching_students": 0.269,
+    "reflection_legacy": 0.269,
+    "serendipity": 0.269
+   },
+   "accepted_themes": [],
+   "review_themes": [],
+   "is_recollection": 0.818,
+   "era": "1960s",
+   "era_conf": 0.445,
+   "function": "origin_story",
+   "function_conf": 0.0,
+   "specificity": 1.0,
+   "affect": 1.0,
+   "relations": [],
+   "route": "review",
+   "model": "heuristic-stub-0.1",
+   "narrator": "Edsger W. Dijkstra",
+   "gold": [
+    "reflection_legacy",
+    "technical_breakthrough"
+   ]
+  }
+ ],
+ "theme_matrix_gold": {
+  "Andries van Dam": {
+   "first_encounter": 2,
+   "mentorship_lineage": 1,
+   "institution_building": 2,
+   "funding_patronage": 0,
+   "technical_breakthrough": 2,
+   "identity_belonging": 0,
+   "profession_formation": 1,
+   "teaching_students": 3,
+   "reflection_legacy": 1,
+   "serendipity": 1
+  },
+  "Leonard Kleinrock": {
+   "first_encounter": 0,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 2,
+   "technical_breakthrough": 3,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 1,
+   "reflection_legacy": 1,
+   "serendipity": 0
+  },
+  "Barbara Liskov": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 3,
+   "technical_breakthrough": 5,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 0,
+   "reflection_legacy": 2,
+   "serendipity": 1
+  },
+  "Raj Reddy": {
+   "first_encounter": 2,
+   "mentorship_lineage": 3,
+   "institution_building": 2,
+   "funding_patronage": 1,
+   "technical_breakthrough": 0,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 0,
+   "reflection_legacy": 1,
+   "serendipity": 0
+  },
+  "Fred Brooks": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 0,
+   "technical_breakthrough": 2,
+   "identity_belonging": 0,
+   "profession_formation": 0,
+   "teaching_students": 1,
+   "reflection_legacy": 1,
+   "serendipity": 1
+  },
+  "Edsger W. Dijkstra": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 0,
+   "funding_patronage": 0,
+   "technical_breakthrough": 2,
+   "identity_belonging": 0,
+   "profession_formation": 2,
+   "teaching_students": 0,
+   "reflection_legacy": 1,
+   "serendipity": 0
+  }
+ },
+ "theme_matrix_pred": {
+  "Andries van Dam": {
+   "first_encounter": 1,
+   "mentorship_lineage": 0,
+   "institution_building": 1,
+   "funding_patronage": 0,
+   "technical_breakthrough": 1,
+   "identity_belonging": 0,
+   "profession_formation": 1,
+   "teaching_students": 5,
+   "reflection_legacy": 1,
+   "serendipity": 2
+  },
+  "Leonard Kleinrock": {
+   "first_encounter": 0,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 2,
+   "technical_breakthrough": 4,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 0,
+   "reflection_legacy": 1,
+   "serendipity": 0
+  },
+  "Barbara Liskov": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 3,
+   "technical_breakthrough": 5,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 3,
+   "reflection_legacy": 2,
+   "serendipity": 1
+  },
+  "Raj Reddy": {
+   "first_encounter": 2,
+   "mentorship_lineage": 2,
+   "institution_building": 1,
+   "funding_patronage": 1,
+   "technical_breakthrough": 0,
+   "identity_belonging": 1,
+   "profession_formation": 0,
+   "teaching_students": 0,
+   "reflection_legacy": 1,
+   "serendipity": 0
+  },
+  "Fred Brooks": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 0,
+   "technical_breakthrough": 2,
+   "identity_belonging": 0,
+   "profession_formation": 0,
+   "teaching_students": 1,
+   "reflection_legacy": 1,
+   "serendipity": 1
+  },
+  "Edsger W. Dijkstra": {
+   "first_encounter": 1,
+   "mentorship_lineage": 1,
+   "institution_building": 1,
+   "funding_patronage": 0,
+   "technical_breakthrough": 1,
+   "identity_belonging": 0,
+   "profession_formation": 2,
+   "teaching_students": 0,
+   "reflection_legacy": 0,
+   "serendipity": 0
+  }
+ },
+ "agreement_vs_reference": {
+  "micro_precision": 0.84,
+  "micro_recall": 0.83,
+  "micro_f1": 0.83,
+  "per_code": {
+   "first_encounter": {
+    "precision": 1.0,
+    "recall": 0.86,
+    "f1": 0.92,
+    "support": 7
+   },
+   "mentorship_lineage": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.86,
+    "support": 8
+   },
+   "institution_building": {
+    "precision": 0.83,
+    "recall": 0.71,
+    "f1": 0.77,
+    "support": 7
+   },
+   "funding_patronage": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 6
+   },
+   "technical_breakthrough": {
+    "precision": 0.85,
+    "recall": 0.79,
+    "f1": 0.81,
+    "support": 14
+   },
+   "identity_belonging": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "profession_formation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "teaching_students": {
+    "precision": 0.44,
+    "recall": 0.8,
+    "f1": 0.57,
+    "support": 5
+   },
+   "reflection_legacy": {
+    "precision": 0.83,
+    "recall": 0.71,
+    "f1": 0.77,
+    "support": 7
+   },
+   "serendipity": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.86,
+    "support": 3
+   }
+  }
+ },
+ "calibration": {
+  "ece": 0.22,
+  "reliability": [
+   {
+    "bin": "0.2-0.3",
+    "n": 418,
+    "mean_p": 0.27,
+    "observed": 0.03
+   },
+   {
+    "bin": "0.8-0.9",
+    "n": 31,
+    "mean_p": 0.82,
+    "observed": 0.74
+   },
+   {
+    "bin": "0.9-1.0",
+    "n": 31,
+    "mean_p": 0.99,
+    "observed": 0.94
+   }
+  ],
+  "note": "stub scores are not probabilities; rerun with TYPESAFE_API_KEY to measure Jev calibration"
+ },
+ "routing": {
+  "review": 43,
+  "accept": 5
+ },
+ "formulas": [
+  {
+   "phrase": "to do",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov",
+    "Fred Brooks",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "kind of",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "what i",
+   "narrators": [
+    "Barbara Liskov",
+    "Fred Brooks",
+    "Leonard Kleinrock"
+   ]
+  },
+  {
+   "phrase": "computer science",
+   "narrators": [
+    "Andries van Dam",
+    "Fred Brooks"
+   ]
+  },
+  {
+   "phrase": "operating system",
+   "narrators": [
+    "Barbara Liskov",
+    "Fred Brooks"
+   ]
+  },
+  {
+   "phrase": "me at the time",
+   "narrators": [
+    "Andries van Dam",
+    "Leonard Kleinrock"
+   ]
+  },
+  {
+   "phrase": "remember how",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "the software",
+   "narrators": [
+    "Fred Brooks",
+    "Leonard Kleinrock"
+   ]
+  },
+  {
+   "phrase": "what you can",
+   "narrators": [
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "at the time",
+   "narrators": [
+    "Andries van Dam",
+    "Leonard Kleinrock"
+   ]
+  },
+  {
+   "phrase": "there were",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "one of the",
+   "narrators": [
+    "Andries van Dam",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "have been",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "about how",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "of people",
+   "narrators": [
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "a problem",
+   "narrators": [
+    "Barbara Liskov",
+    "Fred Brooks"
+   ]
+  },
+  {
+   "phrase": "people in",
+   "narrators": [
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "the time",
+   "narrators": [
+    "Andries van Dam",
+    "Leonard Kleinrock"
+   ]
+  },
+  {
+   "phrase": "the same",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "what you",
+   "narrators": [
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "my first",
+   "narrators": [
+    "Barbara Liskov",
+    "Raj Reddy"
+   ]
+  },
+  {
+   "phrase": "i don't",
+   "narrators": [
+    "Andries van Dam",
+    "Barbara Liskov"
+   ]
+  },
+  {
+   "phrase": "came to",
+   "narrators": [
+    "Andries van Dam",
+    "Fred Brooks"
+   ]
+  },
+  {
+   "phrase": "see the",
+   "narrators": [
+    "Andries van Dam",
+    "Fred Brooks"
+   ]
+  },
+  {
+   "phrase": "lots of",
+   "narrators": [
+    "Barbara Liskov",
+    "Leonard Kleinrock"
+   ]
+  }
+ ],
+ "lineage": [
+  {
+   "narrator": "Andries van Dam",
+   "person": "Myers",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-vandam-2008",
+   "passage": 8,
+   "reference": "influence"
+  },
+  {
+   "narrator": "Andries van Dam",
+   "person": "Sutherland",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-vandam-2008",
+   "passage": 8,
+   "reference": "influence"
+  },
+  {
+   "narrator": "Leonard Kleinrock",
+   "person": "Lawrence Roberts",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "cbi-kleinrock-1990",
+   "passage": 4,
+   "reference": "funder_or_patron"
+  },
+  {
+   "narrator": "Leonard Kleinrock",
+   "person": "Steve Crocker",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "cbi-kleinrock-1990",
+   "passage": 7,
+   "reference": "student_or_mentee"
+  },
+  {
+   "narrator": "Leonard Kleinrock",
+   "person": "Vint Cerf",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "cbi-kleinrock-1990",
+   "passage": 7,
+   "reference": "student_or_mentee"
+  },
+  {
+   "narrator": "Leonard Kleinrock",
+   "person": "Jon Postel",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "cbi-kleinrock-1990",
+   "passage": 7,
+   "reference": "student_or_mentee"
+  },
+  {
+   "narrator": "Barbara Liskov",
+   "person": "John McCarthy",
+   "relation": "influence",
+   "confidence": 0.076,
+   "route": "review",
+   "source": "acm-liskov-2016",
+   "passage": 3,
+   "reference": "advisor_or_mentor"
+  },
+  {
+   "narrator": "Barbara Liskov",
+   "person": "Mike Schroeder",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "acm-liskov-2016",
+   "passage": 5,
+   "reference": "peer_colleague"
+  },
+  {
+   "narrator": "Raj Reddy",
+   "person": "John McCarthy",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-reddy-2021",
+   "passage": 3,
+   "reference": "advisor_or_mentor"
+  },
+  {
+   "narrator": "Raj Reddy",
+   "person": "Newell",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-reddy-2021",
+   "passage": 5,
+   "reference": "influence"
+  },
+  {
+   "narrator": "Raj Reddy",
+   "person": "Simon",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-reddy-2021",
+   "passage": 5,
+   "reference": "influence"
+  },
+  {
+   "narrator": "Fred Brooks",
+   "person": "Aiken",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-brooks-2007",
+   "passage": 2,
+   "reference": "advisor_or_mentor"
+  },
+  {
+   "narrator": "Fred Brooks",
+   "person": "Tom Watson",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "chm-brooks-2007",
+   "passage": 6,
+   "reference": "funder_or_patron"
+  },
+  {
+   "narrator": "Edsger W. Dijkstra",
+   "person": "Wilkes",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "ewd1308-dijkstra-2001",
+   "passage": 1,
+   "reference": "advisor_or_mentor"
+  },
+  {
+   "narrator": "Edsger W. Dijkstra",
+   "person": "Wheeler",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "ewd1308-dijkstra-2001",
+   "passage": 1,
+   "reference": "advisor_or_mentor"
+  },
+  {
+   "narrator": "Edsger W. Dijkstra",
+   "person": "Gill",
+   "relation": "advisor_or_mentor",
+   "confidence": 0.0,
+   "route": "review",
+   "source": "ewd1308-dijkstra-2001",
+   "passage": 1,
+   "reference": "advisor_or_mentor"
+  }
+ ],
+ "medford_validation": {
+  "chm-vandam-2008.mfd": "passed",
+  "cbi-kleinrock-1990.mfd": "passed",
+  "ieee-liskov-1991.mfd": "passed",
+  "acm-liskov-2016.mfd": "passed",
+  "chm-reddy-2021.mfd": "passed",
+  "chm-brooks-2007.mfd": "passed",
+  "ewd1308-dijkstra-2001.mfd": "passed"
+ },
+ "codebook": {
+  "first_encounter": "The speaker recalls their first contact with computers, programming, or the field.",
+  "mentorship_lineage": "The passage names an advisor, mentor, student, or intellectual influence (academic genealogy).",
+  "institution_building": "The passage is about founding or joining a department, lab, institute, program, or curriculum.",
+  "funding_patronage": "The passage is about who paid for the work: DARPA/ARPA, NSF, IBM, grants, or the freedom money bought.",
+  "technical_breakthrough": "The passage describes an invention, a new idea, a system, or a key design decision.",
+  "identity_belonging": "The passage touches on gender, nationality, class, or being an outsider/minority in the field.",
+  "profession_formation": "The passage is about computing or programming becoming a legitimate profession or academic discipline.",
+  "teaching_students": "The passage is about teaching, courses, or undergraduate/graduate students' work.",
+  "reflection_legacy": "The speaker looks back, evaluates impact, or draws a lesson about the field.",
+  "serendipity": "The passage stresses chance, accident, or an idea arriving unexpectedly."
+ }
+}

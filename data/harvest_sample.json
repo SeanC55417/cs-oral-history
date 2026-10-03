@@ -1,0 +1,366 @@
+{
+ "_about": "Sample harvest, 2026-09-28. Excerpts were pulled from the listed URLs through a web reader; they are short (<35 words), some with '...' elisions, and MUST be re-verified against the full downloaded text by ohcs.verify before being treated as verbatim (status: 'pending').",
+ "sources": [
+  {
+   "id": "chm-vandam-2008",
+   "narrator": "Andries van Dam",
+   "drafty_name": "Andries van Dam",
+   "interviewer": "Marc Weber",
+   "date": "2008-12-10",
+   "place": "Menlo Park, California",
+   "repository": "Computer History Museum",
+   "catalog": "X5675.2010 / 102702021",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2015/05/102702021-05-01-acc.pdf",
+   "pages": 27,
+   "excerpts": [
+    {
+     "p": "3",
+     "years": "1960s",
+     "text": "When I saw somebody manipulating images on the screen in real-time in a world that for me at the time consisted of feeding decks of punched cards to computers, that was just mind-blowing."
+    },
+    {
+     "p": "5",
+     "years": "1960s",
+     "text": "I was a graduate student at the university. I don't even remember how I came to see the movie. But as I said, it changed my life."
+    },
+    {
+     "p": "6-7",
+     "years": "1965",
+     "text": "Brown really believes in undergraduates and undergraduate teaching. He knew I'd had a wonderful time at Swarthmore and had really appreciated the intimate contact with faculty."
+    },
+    {
+     "p": "7",
+     "years": "1966",
+     "text": "Brown was one of the very first schools to teach computer science to undergraduates. By 1966, there were several tracks in applied math."
+    },
+    {
+     "p": "9",
+     "years": "1967-1968",
+     "text": "HES was a complete bootleg project. It was done in spare time by these undergraduates who were having a ball learning how to do this kind of stuff."
+    },
+    {
+     "p": "18",
+     "years": "1970s",
+     "text": "The beautiful thing there was that these kids in the FRES group wrote something three times more than the other kids did, because writing was so easy if you had a computer system."
+    },
+    {
+     "p": "24",
+     "years": "1968",
+     "text": "I was very skeptical, and believed that some of it must have been demo-ware, the man behind the curtain, etc. He was very, very kind and said, 'No, come up to my lab.'"
+    },
+    {
+     "p": "23",
+     "years": "2008",
+     "text": "There's a wonderful paper by Myers and Sutherland called The Wheel of Reincarnation about how the same old ideas come around and around and just have different implementations."
+    }
+   ],
+   "affiliation": "Brown University"
+  },
+  {
+   "id": "cbi-kleinrock-1990",
+   "narrator": "Leonard Kleinrock",
+   "drafty_name": "Leonard Kleinrock",
+   "interviewer": "Judy O'Neill",
+   "date": "1990-04-03",
+   "place": "Los Angeles, CA",
+   "repository": "Charles Babbage Institute, University of Minnesota",
+   "catalog": "OH 190",
+   "source_type": "oral_history_transcript",
+   "uri": "https://conservancy.umn.edu/items/aee7d48c-a660-4306-81e5-a0214f642d95",
+   "excerpts": [
+    {
+     "p": "3",
+     "years": "1957",
+     "text": "I received a bachelor's degree in Electrical Engineering, from the Evening Session program at City College, New York in 1957."
+    },
+    {
+     "p": "3-4",
+     "years": "1959-1962",
+     "text": "What I did was to set up analytical models of computer communication networks and that resulted in an MIT book called Communication Nets."
+    },
+    {
+     "p": "4-5",
+     "years": "1963",
+     "text": "In August of that year, 1963, I was offered a position here at UCLA...I tried it, and I'm still here."
+    },
+    {
+     "p": "5",
+     "years": "1967",
+     "text": "In 1967, Larry, who was already at DARPA, was interested in putting together an ARPA network."
+    },
+    {
+     "p": "5",
+     "years": "1969",
+     "text": "In September 1969 they delivered the first IMP to me at UCLA...The first node on the network to begin to get some measurements."
+    },
+    {
+     "p": "5-6",
+     "years": "1969-1971",
+     "text": "we became the network measurement center...And all the while we were making measurements."
+    },
+    {
+     "p": "13-14",
+     "years": "1969",
+     "text": "Steve Crocker, Vint Cerf and Jon Postel all worked for me at the time...Steve Crocker was in charge of the software side."
+    },
+    {
+     "p": "29",
+     "years": "1960s-1970s",
+     "text": "lots of money, lots of freedom in terms of what we were doing, really advanced technology. It was a great, great experiment."
+    }
+   ],
+   "affiliation": "University of California, Los Angeles"
+  },
+  {
+   "id": "ieee-liskov-1991",
+   "narrator": "Barbara Liskov",
+   "drafty_name": "Barbara H. Liskov",
+   "interviewer": "William Aspray",
+   "date": "1991-08-06",
+   "place": "Telephone interview",
+   "repository": "IEEE History Center (ETHW)",
+   "catalog": "Interview #127",
+   "source_type": "oral_history_transcript",
+   "uri": "https://ethw.org/Oral-History:Barbara_Liskov_(1991)",
+   "excerpts": [
+    {
+     "p": "",
+     "years": "1973-1974",
+     "text": "I have had NSF grants since around 1973, I think, or possibly early 1974."
+    },
+    {
+     "p": "",
+     "years": "1970s-1991",
+     "text": "Most of my support has actually been from DARPA...The NSF support has always been for a fraction of what I do, maybe 20 percent."
+    },
+    {
+     "p": "",
+     "years": "1970s",
+     "text": "I designed and implemented a new programming language that contained this concept as a key feature."
+    },
+    {
+     "p": "",
+     "years": "1970s",
+     "text": "I sort of thought about it as a research vehicle that was developed primarily to firm up ideas and get them out."
+    },
+    {
+     "p": "",
+     "years": "1979-1991",
+     "text": "The idea of data abstraction sort of caught fire and today there is a large community of people who think about how to organize programs."
+    },
+    {
+     "p": "",
+     "years": "1991",
+     "text": "What you can get out of the NSF is one or maybe two graduate students...You certainly cannot do systems work on that kind of support."
+    }
+   ],
+   "affiliation": "Massachusetts Institute of Technology"
+  },
+  {
+   "id": "acm-liskov-2016",
+   "narrator": "Barbara Liskov",
+   "drafty_name": "Barbara H. Liskov",
+   "interviewer": "Tom Van Vleck",
+   "date": "2016-04-20",
+   "place": "MIT, Cambridge, Massachusetts",
+   "repository": "ACM A.M. Turing Award oral histories",
+   "catalog": "LiskovTuringTranscript",
+   "source_type": "oral_history_transcript",
+   "uri": "http://amturing.acm.org/pdf/LiskovTuringTranscript.pdf",
+   "excerpts": [
+    {
+     "p": "3-4",
+     "years": "1961",
+     "text": "I got a job at Mitre and on my first day at work, they handed me a FORTRAN manual and they gave me a problem."
+    },
+    {
+     "p": "2",
+     "years": "1950s",
+     "text": "There weren't many girls in these classes. I don't really remember how many there were. I might have been the only one."
+    },
+    {
+     "p": "6-7",
+     "years": "1963",
+     "text": "So I moved back to Stanford in the fall of 1963 and started working with John and taking classes. It was a good thing to do."
+    },
+    {
+     "p": "9",
+     "years": "1969-1970",
+     "text": "The little computer I developed was called 'Venus' and then we developed the Venus operating system."
+    },
+    {
+     "p": "12-13",
+     "years": "1972",
+     "text": "I moved to MIT in the fall of 1972. And at the same time, Mike Schroeder was hired, so they hired two people in systems."
+    },
+    {
+     "p": "15-16",
+     "years": "1972-1973",
+     "text": "I got the idea of data abstraction. And it was this marvelous idea. It came out of nowhere."
+    },
+    {
+     "p": "30-31",
+     "years": "1987-2016",
+     "text": "I discovered there were lots and lots of people on the Internet having arguments about what the Liskov substitution principle meant."
+    }
+   ],
+   "affiliation": "Massachusetts Institute of Technology"
+  },
+  {
+   "id": "chm-reddy-2021",
+   "narrator": "Raj Reddy",
+   "drafty_name": "Raj Reddy",
+   "interviewer": "Hansen Hsu",
+   "date": "2021-04-14",
+   "place": "Pittsburgh, PA (via Zoom)",
+   "repository": "Computer History Museum",
+   "catalog": "X9458.2021 / 102792182",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2021/06/102792182-05-01-acc.pdf",
+   "excerpts": [
+    {
+     "p": "2",
+     "years": "1937",
+     "text": "I was born in India, in a small village of 500 people in the south [of] India near Chennai."
+    },
+    {
+     "p": "4-5",
+     "years": "1959",
+     "text": "Everything was vacuum tube. Was a huge, you know, it was a-- would've taken a whole room like this."
+    },
+    {
+     "p": "9",
+     "years": "1963",
+     "text": "John McCarthy got a DARPA grant to do research in A.I., and one of the things the grant funded was to buy our own dedicated computer."
+    },
+    {
+     "p": "11",
+     "years": "1963",
+     "text": "Why don't you see what you can do with PDP-1 and A-to-D converters? So that was my first introduction."
+    },
+    {
+     "p": "12",
+     "years": "1969",
+     "text": "Since Newell and Simon were at Carnegie Mellon, it was natural I would kind of go to Carnegie Mellon."
+    },
+    {
+     "p": "13",
+     "years": "1979",
+     "text": "That's when we started the Robotics Institute at Carnegie Mellon, and-- in 1979."
+    },
+    {
+     "p": "26",
+     "years": "2021",
+     "text": "There are things in science and technology which can be completely understood... and there are other things that we don't fully understand."
+    }
+   ],
+   "affiliation": "Carnegie Mellon University"
+  },
+  {
+   "id": "chm-brooks-2007",
+   "narrator": "Fred Brooks",
+   "drafty_name": "Fredrick P. Brooks Jr",
+   "interviewer": "Grady Booch",
+   "date": "2007-09-16",
+   "place": "Little Eriswell, Cambridge, United Kingdom",
+   "repository": "Computer History Museum",
+   "catalog": "X4146.2008 / 102658255",
+   "source_type": "oral_history_transcript",
+   "uri": "https://archive.computerhistory.org/resources/access/text/2012/11/102658255-05-01-acc.pdf",
+   "excerpts": [
+    {
+     "p": "4",
+     "years": "1944-1945",
+     "text": "I read in Time Magazine about the Harvard Mark I...and I knew from then on that that was what I wanted to do."
+    },
+    {
+     "p": "5",
+     "years": "1953-1956",
+     "text": "Aiken was a very impressive person...He came to my office every day and wanted to see the prose that had appeared since the day before."
+    },
+    {
+     "p": "10",
+     "years": "1956",
+     "text": "The notion of going from a hardware console to a programmable console, an operating system-driven console. That was crucial to our thinking."
+    },
+    {
+     "p": "25",
+     "years": "1962",
+     "text": "Making the 8-bit byte decision is far and away the most important...it opened the lower case alphabet."
+    },
+    {
+     "p": "29",
+     "years": "1964",
+     "text": "The heads of the departments that use the computations all turned out for the candidate's lecture...they assembled a committee to study computer science."
+    },
+    {
+     "p": "38",
+     "years": "1965",
+     "text": "Tom Watson asked me this question at lunch. He said, 'You've managed the hardware program. You've managed the software program. What's the difference?'"
+    },
+    {
+     "p": "39",
+     "years": "late 1960s",
+     "text": "I thought it was a problem as a project course...I insisted that they choose a producer and a director separate for each project."
+    }
+   ],
+   "affiliation": "University of North Carolina at Chapel Hill"
+  },
+  {
+   "id": "ewd1308-dijkstra-2001",
+   "narrator": "Edsger W. Dijkstra",
+   "drafty_name": null,
+   "interviewer": null,
+   "date": "2001-06-10",
+   "place": "Austin, Texas",
+   "repository": "E.W. Dijkstra Archive, University of Texas at Austin",
+   "catalog": "EWD1308",
+   "source_type": "memoir_essay",
+   "uri": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1308.html",
+   "excerpts": [
+    {
+     "p": "",
+     "years": "1951",
+     "text": "I was introduced to programming at the 1951 Summer School, given in Cambridge by Wilkes, Wheeler and Gill"
+    },
+    {
+     "p": "",
+     "years": "1955",
+     "text": "In 1955 I took the decision not to become a theoretical physicist, but to become a programmer instead."
+    },
+    {
+     "p": "",
+     "years": "1955",
+     "text": "I had concluded that of theoretical physics and programming, programming embodied the greater intellectual challenge."
+    },
+    {
+     "p": "",
+     "years": "1960",
+     "text": "this implementation was then by far my most ambitious project: ALGOL 60 was so far ahead of its time"
+    },
+    {
+     "p": "",
+     "years": "1969",
+     "text": "it took me months to gather the courage to write (for therapeutic reasons) EWD249 'Notes on Structured Programming' (August 1969)"
+    }
+   ],
+   "affiliation": "University of Texas at Austin"
+  }
+ ],
+ "gaps": [
+  {
+   "narrator": "Mary Shaw",
+   "drafty_name": "Mary Shaw",
+   "note": "No oral history found on ETHW or in first-page search results; biography page only (https://ethw.org/Mary_Shaw). Candidate for a new interview."
+  },
+  {
+   "narrator": "Andries van Dam",
+   "note": "Wayback snapshot of cs.brown.edu/people/avd/ (1997) not reachable from this environment (web.archive.org blocked); run collectors.wayback from an open network."
+  },
+  {
+   "narrator": "Barbara Liskov",
+   "note": "CHM video oral history (youtube lhcGCekk4pk) could not be read (rate limited); run collectors.youtube."
+  }
+ ]
+}

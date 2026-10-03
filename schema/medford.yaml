@@ -1,0 +1,22 @@
+# Type rules for the MEDFORD parser's value validator (mapping format, loaded from the CWD).
+# Core tags + the oral-history extension used by ohcs.
+# Date: {type: date}  -- disabled: upstream bug, medfordValidator.date() calls datetime.strptime on the module
+#                        (needs `from datetime import datetime`). ohcs checks YYYY-MM-DD itself.
+"*-URI":
+  type: uri
+Contributor-Email:
+  type: email
+Passage-Text:
+  type: text
+Passage-Years:
+  type: text
+Passage-Specificity:
+  type: integer
+  ">": -1
+  "<": 3
+Passage-Affect:
+  type: integer
+  ">": -1
+  "<": 3
+Relation-Passage:
+  type: text

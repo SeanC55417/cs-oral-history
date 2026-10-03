@@ -1,0 +1,331 @@
+<title>Oral History of CS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,500&display=swap">
+<style>
+:root{--bg:#F2F4F6;--surface:#FFFFFF;--ink:#16202B;--muted:#56626F;--line:#D5DBE1;--accent:#0E6A73;--accent-soft:#D6ECEE;
+--warn:#9A6212;--warn-soft:#F6E9D3;--h1:#E3F0F1;--h2:#B9DDE0;--h3:#7FC0C6;--h4:#2F8C95;--h4ink:#FFFFFF;
+--display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--voice:"Source Serif 4",Georgia,serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0F151B;--surface:#17202A;--ink:#E2E8EE;--muted:#98A5B2;--line:#2A3642;
+--accent:#5CC0C9;--accent-soft:#16363A;--warn:#E3A652;--warn-soft:#3A2C17;--h1:#16302F;--h2:#1D4A4D;--h3:#27707A;--h4:#4FB2BB;--h4ink:#0F151B}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0F151B;--surface:#17202A;--ink:#E2E8EE;--muted:#98A5B2;--line:#2A3642;
+--accent:#5CC0C9;--accent-soft:#16363A;--warn:#E3A652;--warn-soft:#3A2C17;--h1:#16302F;--h2:#1D4A4D;--h3:#27707A;--h4:#4FB2BB;--h4ink:#0F151B}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding-inline:20px;padding-block:0 64px}
+main{max-width:960px;margin:0 auto;display:grid;gap:56px}
+header{padding-top:48px;display:grid;gap:14px;max-width:760px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font:600 clamp(34px,6vw,52px)/1.05 var(--display);letter-spacing:-.01em;margin:0;text-wrap:balance}
+h2{font:600 26px/1.15 var(--display);margin:0 0 6px;text-wrap:balance}
+h3{font:600 17px/1.3 var(--body);margin:0}
+h4{font:600 15px/1.3 var(--display);margin:0 0 6px}
+p{margin:0;max-width:68ch}
+.lede{font-size:17px;color:var(--muted)}
+section{display:grid;gap:16px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;font:13px/1.4 var(--mono);color:var(--muted)}
+.facts b{color:var(--ink);font-weight:500}
+.notice{background:var(--warn-soft);border-left:3px solid var(--warn);padding:12px 16px;max-width:760px}
+.notice p{max-width:none}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;counter-reset:s}
+.step{background:var(--surface);border:1px solid var(--line);padding:12px 14px;display:grid;gap:4px;align-content:start}
+.step::before{counter-increment:s;content:"stage " counter(s);font:500 11px/1 var(--mono);color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.step p{font-size:13px;color:var(--muted)}
+.obs{display:grid;gap:22px;max-width:760px}
+.ob{display:grid;gap:6px}
+blockquote{margin:0;font:italic 400 17px/1.5 var(--voice);border-left:2px solid var(--accent);padding-left:14px;max-width:62ch}
+blockquote cite{display:block;font:12px/1.4 var(--mono);font-style:normal;color:var(--muted);margin-top:4px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;font-size:13.5px;width:100%}
+.data th,.data td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.data th{font:500 11px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+small{color:var(--muted)}
+.heat{min-width:720px}
+.heat th[scope=col]{font:500 11px/1.2 var(--mono);color:var(--muted);height:120px;vertical-align:bottom;padding:0 2px 6px}
+.heat th[scope=col] span{writing-mode:vertical-rl;transform:rotate(180deg);display:inline-block}
+.heat th[scope=row]{text-align:left;font-weight:600;padding:6px 10px 6px 0;white-space:nowrap;font-size:13px}
+.heat td{text-align:center;width:52px;height:34px;font:500 13px var(--mono);border:2px solid var(--bg)}
+.h0{background:var(--surface)}.h1{background:var(--h1)}.h2{background:var(--h2)}.h3{background:var(--h3)}.h4{background:var(--h4);color:var(--h4ink)}
+.pill{display:inline-block;font:500 11px/1.5 var(--mono);padding:1px 7px;border-radius:3px;background:var(--accent-soft);color:var(--accent)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.lingrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+.lin ul{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:14px}
+.rel{font:12px var(--mono);color:var(--accent);margin-left:4px}
+.miss{font:11px var(--mono);color:var(--warn);margin-left:6px}
+.twocol{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+pre{background:var(--surface);border:1px solid var(--line);padding:14px;overflow-x:auto;font:12.5px/1.55 var(--mono);margin:0;max-height:420px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 12px/1 var(--mono);padding:7px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;border-radius:3px}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.list{display:grid;gap:14px;max-height:680px;overflow-y:auto;padding-right:8px;border-top:1px solid var(--line);padding-top:14px}
+.ex{display:grid;gap:6px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.ex .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font:12px var(--mono);color:var(--muted)}
+.ex blockquote{font-size:16px}
+.plan{display:grid;gap:12px;max-width:760px;padding-left:22px;margin:0}
+.plan li{padding-left:4px}
+.count{font:12px var(--mono);color:var(--muted)}
+footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:760px}
+footer ul{margin:0;padding-left:18px}
+@media (prefers-reduced-motion:no-preference){.ex{transition:opacity .2s}}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Preliminary results · sample run 2026-09-28</div>
+  <h1>An oral history of computer science, told by its elders</h1>
+  <p class="lede">A first pass at gathering computing's first-person memory from the web, coding it with typed decisions, and recording every source in MEDFORD. Seven sources, six narrators, 48 passages.</p>
+  <div class="facts"><span>frame <b>5,057 faculty</b> (Drafty)</span><span>sources <b>7</b></span><span>MEDFORD files <b>7/7 valid</b></span><span>coder <b>heuristic-stub-0.1</b></span></div>
+</header>
+
+<div class="notice"><p><b>Read this before the numbers.</b> No TypeSafe API key was available, so the coder in this run is a keyword stub that answers in Jev's exact response format. The findings below come from reference codes I assigned by hand to each excerpt (one coder, still needs human review). The stub's scores only show that the pipeline runs end to end. Excerpts were pulled through a web reader. A spot check of 8 against the full Liskov (ACM) and Kleinrock (CBI) transcripts found all 8 present; the other 40 still have to be checked word for word.</p></div>
+
+<section>
+  <h2>How the pipeline works</h2>
+  <p>A Greek rhapsode didn't invent the epic; he chose, arranged and passed on what earlier singers had said. The pipeline does the same with software. It finds where the elders' memories already live, cuts them into passages, asks typed questions about each passage, and writes the answers down in a durable, validated form.</p>
+  <div class="flow">
+    <div class="step"><h3>Sample the elders</h3><p>Drafty's ~5,000 CS faculty, stratified by join decade and subfield, earliest cohorts first.</p></div>
+    <div class="step"><h3>Harvest</h3><p>Oral-history archives (CHM, CBI, IEEE, ACM), Wayback snapshots of faculty pages, Reddit, video transcripts, memoirs.</p></div>
+    <div class="step"><h3>Generate candidates</h3><p>Split the text into passages and spot names and years with rules. Jev can't write text, so it never has to invent a span.</p></div>
+    <div class="step"><h3>Ask Jev</h3><p>One call per passage: 10 theme Nouls, plus era, narrative role, specificity and affect. Every answer comes with a probability.</p></div>
+    <div class="step"><h3>Route by confidence</h3><p>p ≥ 0.80 is accepted, 0.30–0.80 goes to review, and anything lower is dropped. Choice answers are accepted at confidence ≥ 0.60.</p></div>
+    <div class="step"><h3>Record in MEDFORD</h3><p>One .mfd per source, checked by the Tufts parser. Every label keeps the model and thresholds that produced it.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>The sample</h2>
+  <p>Six narrators from Drafty's earliest cohorts, plus Dijkstra, who isn't in the frame, as a control. Liskov appears twice, 25 years apart, on purpose.</p>
+  <div class="scroll"><table class="data"><thead><tr><th>Narrator</th><th>Interviewer</th><th>Date</th><th>Repository</th><th>Excerpts</th><th>Drafty frame row</th></tr></thead><tbody><tr><td>Andries van Dam</td><td>Marc Weber</td><td class="num">2008-12-10</td><td><a href="https://archive.computerhistory.org/resources/access/text/2015/05/102702021-05-01-acc.pdf" target="_blank" rel="noopener">Computer History Museum</a><br><small>X5675.2010 / 102702021</small></td><td class="num">8</td><td>Brown University · 1965</td></tr><tr><td>Leonard Kleinrock</td><td>Judy O&#x27;Neill</td><td class="num">1990-04-03</td><td><a href="https://conservancy.umn.edu/items/aee7d48c-a660-4306-81e5-a0214f642d95" target="_blank" rel="noopener">Charles Babbage Institute, University of Minnesota</a><br><small>OH 190</small></td><td class="num">8</td><td>University of California, San Diego · 1963 <span class="pill warn">conflict: source says University of California, Los Angeles</span></td></tr><tr><td>Barbara Liskov</td><td>William Aspray</td><td class="num">1991-08-06</td><td><a href="https://ethw.org/Oral-History:Barbara_Liskov_(1991)" target="_blank" rel="noopener">IEEE History Center (ETHW)</a><br><small>Interview #127</small></td><td class="num">6</td><td>Massachusetts Institute of Technology · 1972</td></tr><tr><td>Barbara Liskov</td><td>Tom Van Vleck</td><td class="num">2016-04-20</td><td><a href="http://amturing.acm.org/pdf/LiskovTuringTranscript.pdf" target="_blank" rel="noopener">ACM A.M. Turing Award oral histories</a><br><small>LiskovTuringTranscript</small></td><td class="num">7</td><td>Massachusetts Institute of Technology · 1972</td></tr><tr><td>Raj Reddy</td><td>Hansen Hsu</td><td class="num">2021-04-14</td><td><a href="https://archive.computerhistory.org/resources/access/text/2021/06/102792182-05-01-acc.pdf" target="_blank" rel="noopener">Computer History Museum</a><br><small>X9458.2021 / 102792182</small></td><td class="num">7</td><td>Carnegie Mellon University · 1969</td></tr><tr><td>Fred Brooks</td><td>Grady Booch</td><td class="num">2007-09-16</td><td><a href="https://archive.computerhistory.org/resources/access/text/2012/11/102658255-05-01-acc.pdf" target="_blank" rel="noopener">Computer History Museum</a><br><small>X4146.2008 / 102658255</small></td><td class="num">7</td><td>University of North Carolina at Chapel Hill · 1964</td></tr><tr><td>Edsger W. Dijkstra</td><td>(self-written)</td><td class="num">2001-06-10</td><td><a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1308.html" target="_blank" rel="noopener">E.W. Dijkstra Archive, University of Texas at Austin</a><br><small>EWD1308</small></td><td class="num">5</td><td>not in frame</td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>What the first 48 passages suggest</h2>
+  <div class="obs">
+    <div class="ob"><h3>The interviewer's frame shapes the retelling</h3>
+      <p>Liskov's 1991 IEEE interview was part of an NSF-history project. Half of its excerpts are about grants, and none about how she started. Her 2016 Turing interview covers her first job, being the only girl in class, and an idea that "came out of nowhere." The same life is sung two ways for two audiences. Future sources should record who commissioned the interview as metadata, and the analysis should control for it.</p>
+      <blockquote>What you can get out of the NSF is one or maybe two graduate students...<cite>Liskov, IEEE 1991</cite></blockquote>
+      <blockquote>I got the idea of data abstraction. And it was this marvelous idea. It came out of nowhere.<cite>Liskov, ACM 2016, pp. 15–16</cite></blockquote></div>
+    <div class="ob"><h3>The stories keep meeting at one place and time</h3>
+      <p>Two separate narrators land at Stanford in 1963 with John McCarthy: Liskov as a PhD student, and Reddy on McCarthy's DARPA-funded AI computer. Cross-narrator convergence like this is the oral-history version of corroboration, and a lineage graph built at scale will surface it automatically.</p></div>
+    <div class="ob"><h3>Patronage is how the pioneers remember the past</h3>
+      <p>Kleinrock ("lots of money, lots of freedom"), Liskov (DARPA versus NSF) and Reddy (McCarthy's DARPA grant) all explain their careers through who paid for the work. Among the ten codes, funding comes up in half the sources, while identity comes up only in single asides.</p>
+      <blockquote>lots of money, lots of freedom in terms of what we were doing, really advanced technology. It was a great, great experiment.<cite>Kleinrock, CBI OH 190, p. 29</cite></blockquote></div>
+    <div class="ob"><h3>Origin stories follow a formula</h3>
+      <p>Each narrator has a moment of first sight: a Time magazine article about the Harvard Mark I (Brooks), images moving on a screen (van Dam), a FORTRAN manual on day one (Liskov), a 1951 summer school (Dijkstra). "First encounter" is the most consistent code across narrators. That makes it a good anchor question for the full run.</p></div>
+    <div class="ob"><h3>The sampling frame needs its own audit</h3>
+      <p>Drafty lists Kleinrock at UC San Diego, but his own interview says "here at UCLA." Nine rows have join years before 1960: Guanhua Yan (1958), Filippo Menczer (1955), Erin Brady (1954), Dirk Van Gucht (1954), Donald S. Williamson (1952), Erik Stolterman (1954), Marvin Minsky (1958), Alain Tapp (1956), Esma Aïmeur (1951). Minsky's 1958 is correct. Most of the others look like data errors. These are good jobs for a Jev Noul (<code>join_year_plausible</code>) followed by human review before sampling.</p></div>
+    <div class="ob"><h3>The record has gaps where the voices are missing</h3>
+      <p>For Mary Shaw (CMU, 1972) I found no oral history in the archives I searched, only a biography. Gaps like this are findings in their own right. The project should log every narrator with no retrievable first-person source, broken down by gender and subfield.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Themes by source</h2>
+  <p>Reference codes, counted per source. Darker cells mean more passages carry that theme.</p>
+  <div class="scroll"><table class="heat"><thead><tr><th></th><th scope="col"><span>First encounter</span></th><th scope="col"><span>Mentors &amp; lineage</span></th><th scope="col"><span>Building institutions</span></th><th scope="col"><span>Funding &amp; patronage</span></th><th scope="col"><span>Technical breakthrough</span></th><th scope="col"><span>Identity &amp; belonging</span></th><th scope="col"><span>Becoming a profession</span></th><th scope="col"><span>Teaching &amp; students</span></th><th scope="col"><span>Reflection &amp; legacy</span></th><th scope="col"><span>Serendipity</span></th></tr></thead><tbody><tr><th scope="row">Andries van Dam <small>2008</small></th><td class="h3" title="First encounter: 2">2</td><td class="h2" title="Mentors &amp; lineage: 1">1</td><td class="h3" title="Building institutions: 2">2</td><td class="h0" title="Funding &amp; patronage: 0"></td><td class="h3" title="Technical breakthrough: 2">2</td><td class="h0" title="Identity &amp; belonging: 0"></td><td class="h2" title="Becoming a profession: 1">1</td><td class="h4" title="Teaching &amp; students: 3">3</td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h2" title="Serendipity: 1">1</td></tr><tr><th scope="row">Leonard Kleinrock <small>1990</small></th><td class="h0" title="First encounter: 0"></td><td class="h2" title="Mentors &amp; lineage: 1">1</td><td class="h2" title="Building institutions: 1">1</td><td class="h3" title="Funding &amp; patronage: 2">2</td><td class="h4" title="Technical breakthrough: 3">3</td><td class="h2" title="Identity &amp; belonging: 1">1</td><td class="h0" title="Becoming a profession: 0"></td><td class="h2" title="Teaching &amp; students: 1">1</td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h0" title="Serendipity: 0"></td></tr><tr><th scope="row">Barbara Liskov <small>1991</small></th><td class="h0" title="First encounter: 0"></td><td class="h0" title="Mentors &amp; lineage: 0"></td><td class="h0" title="Building institutions: 0"></td><td class="h4" title="Funding &amp; patronage: 3">3</td><td class="h4" title="Technical breakthrough: 3">3</td><td class="h0" title="Identity &amp; belonging: 0"></td><td class="h0" title="Becoming a profession: 0"></td><td class="h0" title="Teaching &amp; students: 0"></td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h0" title="Serendipity: 0"></td></tr><tr><th scope="row">Barbara Liskov <small>2016</small></th><td class="h2" title="First encounter: 1">1</td><td class="h2" title="Mentors &amp; lineage: 1">1</td><td class="h2" title="Building institutions: 1">1</td><td class="h0" title="Funding &amp; patronage: 0"></td><td class="h3" title="Technical breakthrough: 2">2</td><td class="h2" title="Identity &amp; belonging: 1">1</td><td class="h0" title="Becoming a profession: 0"></td><td class="h0" title="Teaching &amp; students: 0"></td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h2" title="Serendipity: 1">1</td></tr><tr><th scope="row">Raj Reddy <small>2021</small></th><td class="h3" title="First encounter: 2">2</td><td class="h4" title="Mentors &amp; lineage: 3">3</td><td class="h3" title="Building institutions: 2">2</td><td class="h2" title="Funding &amp; patronage: 1">1</td><td class="h0" title="Technical breakthrough: 0"></td><td class="h2" title="Identity &amp; belonging: 1">1</td><td class="h0" title="Becoming a profession: 0"></td><td class="h0" title="Teaching &amp; students: 0"></td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h0" title="Serendipity: 0"></td></tr><tr><th scope="row">Fred Brooks <small>2007</small></th><td class="h2" title="First encounter: 1">1</td><td class="h2" title="Mentors &amp; lineage: 1">1</td><td class="h2" title="Building institutions: 1">1</td><td class="h0" title="Funding &amp; patronage: 0"></td><td class="h3" title="Technical breakthrough: 2">2</td><td class="h0" title="Identity &amp; belonging: 0"></td><td class="h0" title="Becoming a profession: 0"></td><td class="h2" title="Teaching &amp; students: 1">1</td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h2" title="Serendipity: 1">1</td></tr><tr><th scope="row">Edsger W. Dijkstra <small>2001</small></th><td class="h2" title="First encounter: 1">1</td><td class="h2" title="Mentors &amp; lineage: 1">1</td><td class="h0" title="Building institutions: 0"></td><td class="h0" title="Funding &amp; patronage: 0"></td><td class="h3" title="Technical breakthrough: 2">2</td><td class="h0" title="Identity &amp; belonging: 0"></td><td class="h3" title="Becoming a profession: 2">2</td><td class="h0" title="Teaching &amp; students: 0"></td><td class="h2" title="Reflection &amp; legacy: 1">1</td><td class="h0" title="Serendipity: 0"></td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>Lineage: who the narrators name</h2>
+  <p>Rule-based candidate extraction found every person in the reference set (16 mentions). The relation shown is the reference type. Where the stub disagreed, its answer appears in amber. The stub got 5 of 16 right, which is why typing relations is a job for Jev.</p>
+  <div class="lingrid"><div class="lin"><h4>Andries van Dam</h4><ul><li><b>Myers</b> <span class="rel">influence</span><span class="miss">stub said mentor</span></li><li><b>Sutherland</b> <span class="rel">influence</span><span class="miss">stub said mentor</span></li></ul></div><div class="lin"><h4>Leonard Kleinrock</h4><ul><li><b>Lawrence Roberts</b> <span class="rel">patron</span><span class="miss">stub said mentor</span></li><li><b>Steve Crocker</b> <span class="rel">student</span><span class="miss">stub said mentor</span></li><li><b>Vint Cerf</b> <span class="rel">student</span><span class="miss">stub said mentor</span></li><li><b>Jon Postel</b> <span class="rel">student</span><span class="miss">stub said mentor</span></li></ul></div><div class="lin"><h4>Barbara Liskov</h4><ul><li><b>John McCarthy</b> <span class="rel">mentor</span><span class="miss">stub said influence</span></li><li><b>Mike Schroeder</b> <span class="rel">colleague</span><span class="miss">stub said mentor</span></li></ul></div><div class="lin"><h4>Raj Reddy</h4><ul><li><b>John McCarthy</b> <span class="rel">mentor</span></li><li><b>Newell</b> <span class="rel">influence</span><span class="miss">stub said mentor</span></li><li><b>Simon</b> <span class="rel">influence</span><span class="miss">stub said mentor</span></li></ul></div><div class="lin"><h4>Fred Brooks</h4><ul><li><b>Aiken</b> <span class="rel">mentor</span></li><li><b>Tom Watson</b> <span class="rel">patron</span><span class="miss">stub said mentor</span></li></ul></div><div class="lin"><h4>Edsger W. Dijkstra</h4><ul><li><b>Wilkes</b> <span class="rel">mentor</span></li><li><b>Wheeler</b> <span class="rel">mentor</span></li><li><b>Gill</b> <span class="rel">mentor</span></li></ul></div></div>
+</section>
+
+<section>
+  <h2>Pipeline check: stub against the reference codes</h2>
+  <div class="twocol">
+    <div class="scroll"><table class="data"><thead><tr><th>Code</th><th>n</th><th>P</th><th>R</th><th>F1</th></tr></thead><tbody><tr><td>First encounter</td><td class="num">7</td><td class="num">1.00</td><td class="num">0.86</td><td class="num">0.92</td></tr><tr><td>Mentors &amp; lineage</td><td class="num">8</td><td class="num">1.00</td><td class="num">0.75</td><td class="num">0.86</td></tr><tr><td>Building institutions</td><td class="num">7</td><td class="num">0.83</td><td class="num">0.71</td><td class="num">0.77</td></tr><tr><td>Funding &amp; patronage</td><td class="num">6</td><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.00</td></tr><tr><td>Technical breakthrough</td><td class="num">14</td><td class="num">0.85</td><td class="num">0.79</td><td class="num">0.81</td></tr><tr><td>Identity &amp; belonging</td><td class="num">3</td><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.00</td></tr><tr><td>Becoming a profession</td><td class="num">3</td><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.00</td></tr><tr><td>Teaching &amp; students</td><td class="num">5</td><td class="num">0.44</td><td class="num">0.80</td><td class="num">0.57</td></tr><tr><td>Reflection &amp; legacy</td><td class="num">7</td><td class="num">0.83</td><td class="num">0.71</td><td class="num">0.77</td></tr><tr><td>Serendipity</td><td class="num">3</td><td class="num">0.75</td><td class="num">1.00</td><td class="num">0.86</td></tr></tbody></table></div>
+    <div style="display:grid;gap:10px;align-content:start">
+      <p>Micro-F1 is <b>0.83</b> (P 0.84, R 0.83). Don't read this as accuracy. I wrote the stub's keyword cues after reading these same excerpts, so the score is inflated.</p>
+      <p>What it does show is that the scoring harness works. When the API key is set, the same run reports Jev's precision and recall against these codes, plus expected calibration error. Calibration is the property TypeSafe trains for with RLCD: answers given p = 0.9 should be right about 90% of the time. The stub's ECE is 0.22, and it sends 43 of 48 passages to review.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>A MEDFORD record</h2>
+  <p>Core tags (<code>@Contributor</code>, <code>@Date</code>, <code>@Data</code>, <code>@Keyword</code>, <code>@Institution</code>) are used as the spec defines them. Oral-history tags (<code>@OralHistory</code>, <code>@Passage</code>, <code>@Relation</code>, <code>@Extraction</code>) are extensions, type-checked through a custom rules file. All seven files pass the Tufts parser.</p>
+  <pre># Oral History of Computer Science -- MEDFORD record for source &#x27;cbi-kleinrock-1990&#x27;
+# Generated by ohcs (cs-oral-history). Excerpts are short quotations for scholarly annotation.
+@MEDFORD Oral history record: Leonard Kleinrock (Charles Babbage Institute, University of Minnesota)
+@MEDFORD-Version 2.0
+
+@Institution University of California, Los Angeles
+@Institution Charles Babbage Institute, University of Minnesota
+
+@Contributor Leonard Kleinrock
+@Contributor-Role Narrator
+@Contributor-Institution University of California, Los Angeles
+@Contributor-Association University of California, Los Angeles
+
+@Contributor Judy O&#x27;Neill
+@Contributor-Role Interviewer
+@Contributor-Institution Charles Babbage Institute, University of Minnesota
+@Contributor-Association Charles Babbage Institute, University of Minnesota
+
+@Date 1990-04-03
+@Date-Note Interview conducted
+@Date 2026-09-28
+@Date-Note Retrieved and annotated
+
+@Data Charles Babbage Institute, University of Minnesota OH 190
+@Data-Type Website
+@Data-URI https://conservancy.umn.edu/items/aee7d48c-a660-4306-81e5-a0214f642d95
+@Data-Flag referenced
+
+@OralHistory cbi-kleinrock-1990
+@OralHistory-SourceType oral_history_transcript
+@OralHistory-Repository Charles Babbage Institute, University of Minnesota
+@OralHistory-Catalog OH 190
+@OralHistory-Place Los Angeles, CA
+@OralHistory-DraftyMatch Leonard Kleinrock; University of California, San Diego; JoinYear 1963; Computer Networks; PhD Massachusetts Institute of Technology
+@OralHistory-DraftyConflict Drafty lists University of California, San Diego; source states University of California, Los Angeles
+
+@Keyword theme:funding_patronage
+@Keyword theme:identity_belonging
+@Keyword theme:institution_building
+@Keyword theme:mentorship_lineage
+@Keyword theme:reflection_legacy
+@Keyword theme:technical_breakthrough
+
+@Extraction ohcs passage coder
+@Extraction-Model heuristic-stub-0.1
+@Extraction-Thresholds noul_accept=0.8 noul_reject=0.3 choice_accept=0.6
+@Extraction-Calibrated no (heuristic stub, not Jev)
+
+@Passage P1
+@Passage-Text &quot;I received a bachelor&#x27;s degree in Electrical Engineering, from the Evening Session program at City College, New York in 1957.&quot;
+@Passage-Page 3
+@Passage-Years 1957
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme identity_belonging p=0.82
+@Passage-Era 1950s conf=0.45
+@Passage-Function origin_story conf=0.00
+@Passage-Specificity 2
+@Passage-Affect 1
+@Passage-Recollection p=0.82
+@Passage-Route review
+
+@Passage P2
+@Passage-Text &quot;What I did was to set up analytical models of computer communication networks and that resulted in an MIT book called Communication Nets.&quot;
+@Passage-Page 3-4
+@Passage-Years 1959-1962
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme technical_breakthrough p=0.98
+@Passage-Era 1950s conf=0.00
+@Passage-Function origin_story conf=0.00
+@Passage-Specificity 1
+@Passage-Affect 1
+@Passage-Recollection p=0.82
+@Passage-Route review
+
+@Passage P3
+@Passage-Text &quot;In August of that year, 1963, I was offered a position here at UCLA...I tried it, and I&#x27;m still here.&quot;
+@Passage-Page 4-5
+@Passage-Years 1963
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme institution_building p=0.82
+@Passage-Era 1960s conf=0.45
+@Passage-Function origin_story conf=0.00
+@Passage-Specificity 1
+@Passage-Affect 1
+@Passage-Recollection p=1.00
+@Passage-Route review
+
+@Passage P4
+@Passage-Text &quot;In 1967, Larry, who was already at DARPA, was interested in putting together an ARPA network.&quot;
+@Passage-Page 5
+@Passage-Years 1967
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme funding_patronage p=0.98
+@Passage-Theme technical_breakthrough p=0.82
+@Passage-Era 1960s conf=0.45
+@Passage-Function origin_story conf=0.00
+@Passage-Specificity 1
+@Passage-Affect 1
+@Passage-Recollection p=0.27
+@Passage-Route review
+
+@Relation Lawrence Roberts
+@Relation-Type advisor_or_mentor conf=0.00
+@Relation-Passage P4
+@Relation-Route review
+
+@Passage P5
+@Passage-Text &quot;In September 1969 they delivered the first IMP to me at UCLA...The first node on the network to begin to get some measurements.&quot;
+@Passage-Page 5
+@Passage-Years 1969
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme technical_breakthrough p=0.98
+@Passage-Era 1960s conf=0.45
+@Passage-Function origin_story conf=0.08
+@Passage-Specificity 1
+@Passage-Affect 1
+@Passage-Recollection p=0.82
+@Passage-Route review
+
+@Passage P6
+@Passage-Text &quot;we became the network measurement center...And all the while we were making measurements.&quot;
+@Passage-Page 5-6
+@Passage-Years 1969-1971
+@Passage-Verification pending (excerpt via web reader; verify against full text)
+@Passage-Theme technical_breakthrough p=0.82
+@Passage-Era 1960s conf=0.00
+@Passage-Function origin_story conf=0.00
+@Passage-Specificity 0
+@Passage-Affect 1
+@Passage-Recollection p=0.98
+@Passage-Route review
+
+@Passage P7
+@Passage-Text &quot;Steve Crocker, Vint Cerf and Jon Postel all worked for me at the time...Steve Crocker was in charge of the software side.&quot;
+@Passage-Page 13-14
+@Passage-Years 1969
+@Passage-Verification pending (excerpt …</pre>
+</section>
+
+<section>
+  <h2>Browse the passages</h2>
+  <div class="chips" role="group" aria-label="Filter by theme"><button type="button" class="chip" data-code="first_encounter" id="chip-first_encounter">First encounter</button><button type="button" class="chip" data-code="mentorship_lineage" id="chip-mentorship_lineage">Mentors &amp; lineage</button><button type="button" class="chip" data-code="institution_building" id="chip-institution_building">Building institutions</button><button type="button" class="chip" data-code="funding_patronage" id="chip-funding_patronage">Funding &amp; patronage</button><button type="button" class="chip" data-code="technical_breakthrough" id="chip-technical_breakthrough">Technical breakthrough</button><button type="button" class="chip" data-code="identity_belonging" id="chip-identity_belonging">Identity &amp; belonging</button><button type="button" class="chip" data-code="profession_formation" id="chip-profession_formation">Becoming a profession</button><button type="button" class="chip" data-code="teaching_students" id="chip-teaching_students">Teaching &amp; students</button><button type="button" class="chip" data-code="reflection_legacy" id="chip-reflection_legacy">Reflection &amp; legacy</button><button type="button" class="chip" data-code="serendipity" id="chip-serendipity">Serendipity</button></div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="list" id="list"></div>
+</section>
+
+<section>
+  <h2>Plan for the full run</h2>
+  <ol class="plan">
+    <li><b>Clean the frame.</b> Run a Jev join-year check over all ~5,000 Drafty rows, review the flagged ones, and draw about 150 narrators stratified by cohort × subfield, oversampling pre-1980 cohorts and women.</li>
+    <li><b>Harvest from an open network.</b> Pull oral-history PDFs from CHM, CBI, ETHW, ACM and the Smithsonian, the yearly Wayback history of each narrator's faculty page, Reddit AMA and AskHistorians threads, YouTube transcripts, and memoir papers found through OpenAlex. Cache every raw document with its retrieval date.</li>
+    <li><b>Verify quotes.</b> Fuzzy-match every excerpt against the cached full text and store page numbers. Nothing enters MEDFORD as verbatim until it matches.</li>
+    <li><b>Run Jev.</b> Use one batched call per passage (15 questions) and per candidate person. Triage crawled pages first with the source-kind and usefulness questions.</li>
+    <li><b>Calibrate and code.</b> Two humans double-code a 10% stratified subset. Report κ between them, Jev's F1 and ECE against them, and tune the routing thresholds per code by the cost of a mistake.</li>
+    <li><b>Find new themes.</b> Cluster review-queue passages that fit no code (embeddings plus HDBSCAN or NMF), name new codes, and add them to the codebook as new Nouls.</li>
+    <li><b>Publish.</b> Release the MEDFORD corpus, a lineage graph, per-cohort theme trends, and a "missing voices" table.</li>
+  </ol>
+</section>
+
+<footer>
+  <b>Sources</b>
+  <ul>
+    <li><a href="https://drafty.cs.brown.edu/" target="_blank" rel="noopener">Drafty</a> CS professors dataset (<a href="https://github.com/brownhci/drafty" target="_blank" rel="noopener">brownhci/drafty</a>, finalProfs.csv)</li>
+    <li><a href="https://github.com/TuftsBCB/medford" target="_blank" rel="noopener">MEDFORD parser</a> (Tufts BCB) · <a href="https://docs.typesafe.ai/introduction/quickstart" target="_blank" rel="noopener">TypeSafe Jev docs</a></li>
+    <li>Transcripts: CHM (van Dam, Reddy, Brooks), CBI OH 190 (Kleinrock), IEEE History Center No. 127 and ACM Turing Award interview (Liskov), EWD1308 (Dijkstra). Links are in the sample table.</li>
+  </ul>
+</footer>
+</main>
+<script>
+const P=[{"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "When I saw somebody manipulating images on the screen in real-time in a world that for me at the time consisted of feeding decks of punched cards to computers, that was just mind-blowing.", "pg": "3", "yr": "1960s", "g": ["first_encounter", "technical_breakthrough"], "m": ["first_encounter"], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "I was a graduate student at the university. I don't even remember how I came to see the movie. But as I said, it changed my life.", "pg": "5", "yr": "1960s", "g": ["first_encounter", "serendipity"], "m": ["serendipity", "teaching_students"], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "Brown really believes in undergraduates and undergraduate teaching. He knew I'd had a wonderful time at Swarthmore and had really appreciated the intimate contact with faculty.", "pg": "6-7", "yr": "1965", "g": ["institution_building", "teaching_students"], "m": ["teaching_students"], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "Brown was one of the very first schools to teach computer science to undergraduates. By 1966, there were several tracks in applied math.", "pg": "7", "yr": "1966", "g": ["institution_building", "profession_formation"], "m": ["institution_building", "profession_formation", "teaching_students"], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "HES was a complete bootleg project. It was done in spare time by these undergraduates who were having a ball learning how to do this kind of stuff.", "pg": "9", "yr": "1967-1968", "g": ["teaching_students", "technical_breakthrough"], "m": ["serendipity", "teaching_students"], "r": "accept"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "The beautiful thing there was that these kids in the FRES group wrote something three times more than the other kids did, because writing was so easy if you had a computer system.", "pg": "18", "yr": "1970s", "g": ["teaching_students"], "m": ["teaching_students"], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "I was very skeptical, and believed that some of it must have been demo-ware, the man behind the curtain, etc. He was very, very kind and said, 'No, come up to my lab.'", "pg": "24", "yr": "1968", "g": ["mentorship_lineage"], "m": [], "r": "review"}, {"n": "Andries van Dam", "s": "chm-vandam-2008", "y": "2008", "t": "There's a wonderful paper by Myers and Sutherland called The Wheel of Reincarnation about how the same old ideas come around and around and just have different implementations.", "pg": "23", "yr": "2008", "g": ["reflection_legacy"], "m": ["reflection_legacy", "technical_breakthrough"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "I received a bachelor's degree in Electrical Engineering, from the Evening Session program at City College, New York in 1957.", "pg": "3", "yr": "1957", "g": ["identity_belonging"], "m": ["identity_belonging"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "What I did was to set up analytical models of computer communication networks and that resulted in an MIT book called Communication Nets.", "pg": "3-4", "yr": "1959-1962", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "In August of that year, 1963, I was offered a position here at UCLA...I tried it, and I'm still here.", "pg": "4-5", "yr": "1963", "g": ["institution_building"], "m": ["institution_building"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "In 1967, Larry, who was already at DARPA, was interested in putting together an ARPA network.", "pg": "5", "yr": "1967", "g": ["funding_patronage"], "m": ["funding_patronage", "technical_breakthrough"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "In September 1969 they delivered the first IMP to me at UCLA...The first node on the network to begin to get some measurements.", "pg": "5", "yr": "1969", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "we became the network measurement center...And all the while we were making measurements.", "pg": "5-6", "yr": "1969-1971", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "Steve Crocker, Vint Cerf and Jon Postel all worked for me at the time...Steve Crocker was in charge of the software side.", "pg": "13-14", "yr": "1969", "g": ["mentorship_lineage", "teaching_students"], "m": ["mentorship_lineage"], "r": "review"}, {"n": "Leonard Kleinrock", "s": "cbi-kleinrock-1990", "y": "1990", "t": "lots of money, lots of freedom in terms of what we were doing, really advanced technology. It was a great, great experiment.", "pg": "29", "yr": "1960s-1970s", "g": ["funding_patronage", "reflection_legacy"], "m": ["funding_patronage", "reflection_legacy"], "r": "review"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "I have had NSF grants since around 1973, I think, or possibly early 1974.", "pg": "", "yr": "1973-1974", "g": ["funding_patronage"], "m": ["funding_patronage"], "r": "accept"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "Most of my support has actually been from DARPA...The NSF support has always been for a fraction of what I do, maybe 20 percent.", "pg": "", "yr": "1970s-1991", "g": ["funding_patronage"], "m": ["funding_patronage"], "r": "review"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "I designed and implemented a new programming language that contained this concept as a key feature.", "pg": "", "yr": "1970s", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "I sort of thought about it as a research vehicle that was developed primarily to firm up ideas and get them out.", "pg": "", "yr": "1970s", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "The idea of data abstraction sort of caught fire and today there is a large community of people who think about how to organize programs.", "pg": "", "yr": "1979-1991", "g": ["reflection_legacy", "technical_breakthrough"], "m": ["reflection_legacy", "technical_breakthrough"], "r": "review"}, {"n": "Barbara Liskov", "s": "ieee-liskov-1991", "y": "1991", "t": "What you can get out of the NSF is one or maybe two graduate students...You certainly cannot do systems work on that kind of support.", "pg": "", "yr": "1991", "g": ["funding_patronage"], "m": ["funding_patronage", "teaching_students"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "I got a job at Mitre and on my first day at work, they handed me a FORTRAN manual and they gave me a problem.", "pg": "3-4", "yr": "1961", "g": ["first_encounter"], "m": ["first_encounter"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "There weren't many girls in these classes. I don't really remember how many there were. I might have been the only one.", "pg": "2", "yr": "1950s", "g": ["identity_belonging"], "m": ["identity_belonging", "teaching_students"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "So I moved back to Stanford in the fall of 1963 and started working with John and taking classes. It was a good thing to do.", "pg": "6-7", "yr": "1963", "g": ["mentorship_lineage"], "m": ["mentorship_lineage", "teaching_students"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "The little computer I developed was called 'Venus' and then we developed the Venus operating system.", "pg": "9", "yr": "1969-1970", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "I moved to MIT in the fall of 1972. And at the same time, Mike Schroeder was hired, so they hired two people in systems.", "pg": "12-13", "yr": "1972", "g": ["institution_building"], "m": ["institution_building"], "r": "review"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "I got the idea of data abstraction. And it was this marvelous idea. It came out of nowhere.", "pg": "15-16", "yr": "1972-1973", "g": ["serendipity", "technical_breakthrough"], "m": ["serendipity", "technical_breakthrough"], "r": "accept"}, {"n": "Barbara Liskov", "s": "acm-liskov-2016", "y": "2016", "t": "I discovered there were lots and lots of people on the Internet having arguments about what the Liskov substitution principle meant.", "pg": "30-31", "yr": "1987-2016", "g": ["reflection_legacy"], "m": ["reflection_legacy"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "I was born in India, in a small village of 500 people in the south [of] India near Chennai.", "pg": "2", "yr": "1937", "g": ["identity_belonging"], "m": ["identity_belonging"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "Everything was vacuum tube. Was a huge, you know, it was a-- would've taken a whole room like this.", "pg": "4-5", "yr": "1959", "g": ["first_encounter"], "m": ["first_encounter"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "John McCarthy got a DARPA grant to do research in A.I., and one of the things the grant funded was to buy our own dedicated computer.", "pg": "9", "yr": "1963", "g": ["funding_patronage", "mentorship_lineage"], "m": ["funding_patronage", "mentorship_lineage"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "Why don't you see what you can do with PDP-1 and A-to-D converters? So that was my first introduction.", "pg": "11", "yr": "1963", "g": ["first_encounter", "mentorship_lineage"], "m": ["first_encounter"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "Since Newell and Simon were at Carnegie Mellon, it was natural I would kind of go to Carnegie Mellon.", "pg": "12", "yr": "1969", "g": ["institution_building", "mentorship_lineage"], "m": ["mentorship_lineage"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "That's when we started the Robotics Institute at Carnegie Mellon, and-- in 1979.", "pg": "13", "yr": "1979", "g": ["institution_building"], "m": ["institution_building"], "r": "review"}, {"n": "Raj Reddy", "s": "chm-reddy-2021", "y": "2021", "t": "There are things in science and technology which can be completely understood... and there are other things that we don't fully understand.", "pg": "26", "yr": "2021", "g": ["reflection_legacy"], "m": ["reflection_legacy"], "r": "review"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "I read in Time Magazine about the Harvard Mark I...and I knew from then on that that was what I wanted to do.", "pg": "4", "yr": "1944-1945", "g": ["first_encounter"], "m": ["first_encounter"], "r": "accept"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "Aiken was a very impressive person...He came to my office every day and wanted to see the prose that had appeared since the day before.", "pg": "5", "yr": "1953-1956", "g": ["mentorship_lineage"], "m": ["mentorship_lineage"], "r": "accept"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "The notion of going from a hardware console to a programmable console, an operating system-driven console. That was crucial to our thinking.", "pg": "10", "yr": "1956", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "Making the 8-bit byte decision is far and away the most important...it opened the lower case alphabet.", "pg": "25", "yr": "1962", "g": ["technical_breakthrough"], "m": ["reflection_legacy", "technical_breakthrough"], "r": "review"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "The heads of the departments that use the computations all turned out for the candidate's lecture...they assembled a committee to study computer science.", "pg": "29", "yr": "1964", "g": ["institution_building"], "m": ["institution_building"], "r": "review"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "Tom Watson asked me this question at lunch. He said, 'You've managed the hardware program. You've managed the software program. What's the difference?'", "pg": "38", "yr": "1965", "g": ["reflection_legacy", "serendipity"], "m": ["serendipity"], "r": "review"}, {"n": "Fred Brooks", "s": "chm-brooks-2007", "y": "2007", "t": "I thought it was a problem as a project course...I insisted that they choose a producer and a director separate for each project.", "pg": "39", "yr": "late 1960s", "g": ["teaching_students"], "m": ["teaching_students"], "r": "review"}, {"n": "Edsger W. Dijkstra", "s": "ewd1308-dijkstra-2001", "y": "2001", "t": "I was introduced to programming at the 1951 Summer School, given in Cambridge by Wilkes, Wheeler and Gill", "pg": "", "yr": "1951", "g": ["first_encounter", "mentorship_lineage"], "m": ["first_encounter", "institution_building", "mentorship_lineage"], "r": "review"}, {"n": "Edsger W. Dijkstra", "s": "ewd1308-dijkstra-2001", "y": "2001", "t": "In 1955 I took the decision not to become a theoretical physicist, but to become a programmer instead.", "pg": "", "yr": "1955", "g": ["profession_formation"], "m": ["profession_formation"], "r": "review"}, {"n": "Edsger W. Dijkstra", "s": "ewd1308-dijkstra-2001", "y": "2001", "t": "I had concluded that of theoretical physics and programming, programming embodied the greater intellectual challenge.", "pg": "", "yr": "1955", "g": ["profession_formation"], "m": ["profession_formation"], "r": "review"}, {"n": "Edsger W. Dijkstra", "s": "ewd1308-dijkstra-2001", "y": "2001", "t": "this implementation was then by far my most ambitious project: ALGOL 60 was so far ahead of its time", "pg": "", "yr": "1960", "g": ["technical_breakthrough"], "m": ["technical_breakthrough"], "r": "review"}, {"n": "Edsger W. Dijkstra", "s": "ewd1308-dijkstra-2001", "y": "2001", "t": "it took me months to gather the courage to write (for therapeutic reasons) EWD249 'Notes on Structured Programming' (August 1969)", "pg": "", "yr": "1969", "g": ["reflection_legacy", "technical_breakthrough"], "m": [], "r": "review"}];
+const L={"first_encounter": "First encounter", "mentorship_lineage": "Mentors & lineage", "institution_building": "Building institutions", "funding_patronage": "Funding & patronage", "technical_breakthrough": "Technical breakthrough", "identity_belonging": "Identity & belonging", "profession_formation": "Becoming a profession", "teaching_students": "Teaching & students", "reflection_legacy": "Reflection & legacy", "serendipity": "Serendipity"};
+const on=new Set();
+const list=document.getElementById('list'),count=document.getElementById('count');
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function render(){
+  const rows=P.filter(p=>[...on].every(c=>p.g.includes(c)));
+  count.textContent=rows.length+' of '+P.length+' passages'+(on.size?' with '+[...on].map(c=>L[c]).join(' + '):'');
+  list.innerHTML=rows.map(p=>`<div class="ex"><blockquote>${esc(p.t)}<cite>${esc(p.n)}, ${p.y}${p.pg?', p. '+esc(p.pg):''} · about ${esc(p.yr)}</cite></blockquote>
+  <div class="meta">${p.g.map(c=>`<span class="pill">${L[c]}</span>`).join('')}${p.r==='review'?'<span class="pill warn">stub: review</span>':''}</div></div>`).join('');
+}
+document.querySelectorAll('.chip').forEach(b=>{b.setAttribute('aria-pressed','false');b.addEventListener('click',()=>{
+  const c=b.dataset.code; on.has(c)?on.delete(c):on.add(c); b.setAttribute('aria-pressed',on.has(c)); render();})});
+render();
+</script>
